@@ -23,3 +23,16 @@ header{background:#fff;border:0;box-shadow:none}.header-inner{height:91px;max-wi
 .hero::before{inset:0 0 auto;height:32px;background-image:url("hero-wave-top.svg")}
 .hero::after{bottom:-1px;height:80px;background-image:url("hero-wave-bottom.svg")}
 @media(max-width:620px){.hero::before{height:22px}.hero::after{height:58px}}
+
+/* Colored benefit symbols and larger small text. */
+.header-inner nav{font-size:15px;gap:12px}.header-phone{font-size:15px}.brand small{font-size:14px}
+.trust-ribbon .benefit-icon{background:#fff0f6;color:#e52370;box-shadow:0 4px 12px #e5237015}
+.trust-ribbon article:nth-child(2) .benefit-icon{background:#e4faf4;color:#009e85}
+.trust-ribbon article:nth-child(3) .benefit-icon{background:#fff3df;color:#ef7800}
+.trust-ribbon article:nth-child(4) .benefit-icon{background:#f3eaff;color:#9140d5}
+.trust-ribbon .benefit-icon svg{width:38px;height:38px;stroke-width:2;fill:currentColor;fill-opacity:.13}
+.trust-ribbon .advantages h3{font-size:19px}.trust-ribbon .advantages p{font-size:16px;line-height:1.45}
+@media(max-width:1200px){.header-inner nav{font-size:15px;gap:11px}.trust-ribbon .advantages article{grid-template-columns:52px 1fr}.trust-ribbon .benefit-icon{width:52px;height:52px}.trust-ribbon .advantages h3{font-size:18px}}
+@media(max-width:1050px){.header-inner nav{display:none}.menu-toggle{display:block;margin-left:auto;font-size:26px;color:#d81862}}
+@media(max-width:900px){.trust-ribbon .advantages article{grid-template-columns:62px 1fr}.trust-ribbon .benefit-icon{width:62px;height:62px}}
+@media(max-width:620px){.brand small{font-size:12px}.trust-ribbon .advantages h3{font-size:18px}.trust-ribbon .advantages p{font-size:16px}.hero-facts>span,.hero-facts>span+span{font-size:14px;line-height:1.4}}
