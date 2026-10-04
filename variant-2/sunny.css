@@ -57,3 +57,14 @@ header{background:#fff;border:0;box-shadow:none}.header-inner{height:91px;max-wi
 .header-inner nav{font-size:18px;gap:12px}
 #mobile-menu a{font-size:18px}
 @media(max-width:1400px){.header-phone{display:none}}
+
+/* Bright colored pricing cards. */
+#prices .price.featured{background:#ffe535}
+#prices .price:nth-child(2){background:#52dec7}
+#prices .price:nth-child(3){background:#c68afa}
+#prices .price{box-shadow:0 7px 20px #12232e0c}
+#prices .price .amount{color:#b51052}
+#prices .price .badge.pale{background:#ffffffda;color:#12232e}
+#prices .price .outline{background:#d81862;border-color:#d81862;color:#fff;box-shadow:0 6px 0 #bd14502a}
+#prices .price .outline:hover{background:#b91553;border-color:#b91553;color:#fff}
+#prices .price p,#prices .price .muted,#prices .price small,#prices .price del{color:#243741}
