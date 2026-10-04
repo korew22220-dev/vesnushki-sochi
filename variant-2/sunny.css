@@ -59,9 +59,9 @@ header{background:#fff;border:0;box-shadow:none}.header-inner{height:91px;max-wi
 @media(max-width:1400px){.header-phone{display:none}}
 
 /* Bright colored pricing cards. */
-#prices .price.featured{background:#ffe535}
-#prices .price:nth-child(2){background:#52dec7}
-#prices .price:nth-child(3){background:#c68afa}
+#prices .price.featured{background:#fff0b5}
+#prices .price:nth-child(2){background:#f7d4df}
+#prices .price:nth-child(3){background:#cee6f3}
 #prices .price{box-shadow:0 7px 20px #12232e0c}
 #prices .price .amount{color:#b51052}
 #prices .price .badge.pale{background:#ffffffda;color:#12232e}
