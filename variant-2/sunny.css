@@ -52,3 +52,8 @@ header{background:#fff;border:0;box-shadow:none}.header-inner{height:91px;max-wi
 @media(min-width:1051px) and (max-width:1280px){.header-inner{gap:12px}.header-inner nav{gap:12px}.header-inner nav a{padding:8px 0}}
 @media(max-width:1180px){.header-inner nav{display:none}.menu-toggle{display:block;margin-left:auto;font-size:26px;color:#d81862}}
 @media(prefers-reduced-motion:reduce){.header-inner nav a,#mobile-menu a{transition:none}}
+
+/* Larger navigation labels. */
+.header-inner nav{font-size:20px;gap:12px}
+#mobile-menu a{font-size:20px}
+@media(max-width:1400px){.header-phone{display:none}}
