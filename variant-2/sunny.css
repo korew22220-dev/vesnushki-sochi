@@ -36,3 +36,19 @@ header{background:#fff;border:0;box-shadow:none}.header-inner{height:91px;max-wi
 @media(max-width:1050px){.header-inner nav{display:none}.menu-toggle{display:block;margin-left:auto;font-size:26px;color:#d81862}}
 @media(max-width:900px){.trust-ribbon .advantages article{grid-template-columns:62px 1fr}.trust-ribbon .benefit-icon{width:62px;height:62px}}
 @media(max-width:620px){.brand small{font-size:12px}.trust-ribbon .advantages h3{font-size:18px}.trust-ribbon .advantages p{font-size:16px}.hero-facts>span,.hero-facts>span+span{font-size:14px;line-height:1.4}}
+
+/* Colorful header navigation pills. */
+.header-inner nav{gap:7px;align-items:center;flex-wrap:nowrap}
+.header-inner nav a,#mobile-menu a:not([href^="tel:"]){--nav-color:#ffe05b;display:inline-flex;align-items:center;justify-content:center;background:var(--nav-color);color:#12232e;border-radius:100px;padding:10px 11px;white-space:nowrap;position:relative;transition:transform .22s ease,box-shadow .22s ease;transform-origin:center;line-height:1.2}
+.header-inner nav a:nth-child(8n+2),#mobile-menu a:nth-child(8n+2){--nav-color:#ff9ec4}
+.header-inner nav a:nth-child(8n+3),#mobile-menu a:nth-child(8n+3){--nav-color:#83e7d4}
+.header-inner nav a:nth-child(8n+4),#mobile-menu a:nth-child(8n+4){--nav-color:#ffbe72}
+.header-inner nav a:nth-child(8n+5),#mobile-menu a:nth-child(8n+5){--nav-color:#d2adfa}
+.header-inner nav a:nth-child(8n+6),#mobile-menu a:nth-child(8n+6){--nav-color:#ffe05b}
+.header-inner nav a:nth-child(8n+7),#mobile-menu a:nth-child(8n+7){--nav-color:#9cddff}
+.header-inner nav a:nth-child(8n+8),#mobile-menu a:nth-child(8n+8){--nav-color:#b8ed8b}
+.header-inner nav a:focus-visible,#mobile-menu a:focus-visible{outline:3px solid #12232e;outline-offset:3px}
+@media(hover:hover) and (pointer:fine){.header-inner nav a:hover,#mobile-menu a:not([href^="tel:"]):hover{color:#12232e;transform:translateY(-2px) scale(1.08);box-shadow:0 5px 13px #12232e20;z-index:2}}
+@media(min-width:1051px) and (max-width:1280px){.header-inner{gap:12px}.header-inner nav{gap:5px}.header-inner nav a{padding:10px 8px}}
+@media(max-width:1180px){.header-inner nav{display:none}.menu-toggle{display:block;margin-left:auto;font-size:26px;color:#d81862}}
+@media(prefers-reduced-motion:reduce){.header-inner nav a,#mobile-menu a{transition:none}}
