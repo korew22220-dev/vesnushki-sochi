@@ -68,3 +68,14 @@ header{background:#fff;border:0;box-shadow:none}.header-inner{height:91px;max-wi
 #prices .price .outline{background:#d81862;border-color:#d81862;color:#fff;box-shadow:0 6px 0 #bd14502a}
 #prices .price .outline:hover{background:#b91553;border-color:#b91553;color:#fff}
 #prices .price p,#prices .price .muted,#prices .price small,#prices .price del{color:#243741}
+
+/* Soft rounded silhouette for food and outdoor play. */
+#food{position:relative;isolation:isolate;overflow:hidden;border-radius:90px 110px 95px 80px;padding:82px 44px 86px}
+#food::before,#food::after{content:"";position:absolute;left:0;right:0;pointer-events:none;z-index:0;background-repeat:no-repeat;background-size:100% 100%}
+#food::before{top:-1px;height:42px;background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201440%2048%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fffef2%22%20d%3D%22M0%200H1440V16C1280%2044%201170%206%201000%2016C840%2028%20760%2038%20610%2019C400%20-3%20220%2039%200%2012Z%22%2F%3E%3C%2Fsvg%3E")}
+#food::after{bottom:-1px;height:55px;background-image:url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201440%2060%22%20preserveAspectRatio%3D%22none%22%3E%3Cpath%20fill%3D%22%23fffef2%22%20d%3D%22M0%2033C200%2063%20335%206%20505%2017C725%2038%20815%206%20990%2015C1170%2021%201280%2058%201440%2024V60H0Z%22%2F%3E%3C%2Fsvg%3E")}
+#food>div{position:relative;z-index:1}
+#food .walk{border-radius:65px 85px 70px 55px;padding:36px}
+#food .meals>div{border-radius:30px}
+@media(max-width:900px){#food{border-radius:65px 80px 65px 55px;padding:70px 32px 75px}#food .walk{border-radius:48px 60px 50px 40px;padding:28px}}
+@media(max-width:620px){#food{border-radius:45px 60px 48px 40px;padding:56px 24px 64px}#food::before{height:27px}#food::after{height:35px}#food .walk{border-radius:40px 50px 42px 35px;padding:26px}#food .meals>div{border-radius:24px}}
