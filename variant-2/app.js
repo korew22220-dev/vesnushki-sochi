@@ -12,10 +12,10 @@ async function recordVisit(){if(!cms.token)return;let session={id:crypto.randomU
 recordVisit();
 
 const promoBooking=$('#promo-booking');
-promotion.querySelector('.promo-open-booking').addEventListener('click',()=>{
-  dismissPromo();
+document.querySelectorAll('.booking-open').forEach(button=>button.addEventListener('click',()=>{
+  if(promotion.open)dismissPromo();
   promoBooking.showModal();
-});
+}));
 $('#promo-booking-form').addEventListener('submit',event=>{
   event.preventDefault();
   const form=event.currentTarget;
