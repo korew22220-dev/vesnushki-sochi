@@ -86,3 +86,12 @@ header{background:#fff;border:0;box-shadow:none}.header-inner{height:91px;max-wi
 @media(max-width:1200px){.hero .hero-girls-photo{height:350px;width:105%;right:-3%}.hero:has(.hero-girls-photo) .hero-note{bottom:312px;font-size:24px}}
 @media(max-width:900px){.hero .hero-girls-photo{height:300px;bottom:12px;border-radius:65px 75px 60px 70px}.hero:has(.hero-girls-photo) .hero-note{bottom:280px;right:0;font-size:22px}}
 @media(max-width:620px){.hero .hero-girls-photo{width:100%;right:0;bottom:12px;height:100%;max-height:290px;border-radius:55px 65px 50px 60px}.hero:has(.hero-girls-photo) .hero-note{bottom:auto;top:-18px;right:8%;font-size:24px}}
+
+/* Bright cloud frame inspired by the client reference. */
+.hero:has(.hero-girls-photo) .hero-visual::before{content:"";position:absolute;inset:0 -5% -12px -3%;background:url("hero-bright-clouds.svg") center/100% 100% no-repeat;pointer-events:none}
+.hero .hero-girls-photo{right:2%;bottom:15px;width:96%;height:355px;border-radius:85px 100px 75px 90px}
+.hero:has(.hero-girls-photo) .hero-note{right:7%;bottom:375px;font-size:28px}
+@media(max-width:1200px){.hero .hero-girls-photo{right:2%;width:96%;height:335px}.hero:has(.hero-girls-photo) .hero-note{bottom:355px;font-size:25px}}
+@media(max-width:900px){.hero .hero-girls-photo{height:285px;border-radius:65px 75px 60px 70px}.hero:has(.hero-girls-photo) .hero-note{bottom:305px;font-size:23px}}
+@media(max-width:620px){.hero:has(.hero-girls-photo) .hero-visual{height:350px;margin-top:24px}.hero:has(.hero-girls-photo) .hero-visual::before{inset:0 -6% -8px}.hero .hero-girls-photo{right:2%;bottom:14px;width:96%;height:260px;max-height:none;border-radius:55px 65px 50px 60px}.hero:has(.hero-girls-photo) .hero-note{top:24px;right:8%;bottom:auto;font-size:24px}}
+@media(max-width:360px){.hero:has(.hero-girls-photo) .hero-visual{height:315px}.hero .hero-girls-photo{height:235px}.hero:has(.hero-girls-photo) .hero-note{font-size:21px}}
