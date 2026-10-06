@@ -187,3 +187,27 @@ header{background:#fff;border:0;box-shadow:none}.header-inner{height:91px;max-wi
 #promotion .promo-copy>small{font-size:12px;margin-top:9px}
 #promo-booking .promo-booking-content{padding:32px 22px 24px}
 }
+
+/* Booking controls beside the public phone number. */
+.header-inner{height:auto;min-height:118px;flex-wrap:wrap;gap:4px 18px;padding:10px 0}
+.header-inner .brand{order:0}
+.header-contact{order:1;display:flex;align-items:center;gap:14px;margin-left:auto;white-space:nowrap}
+.header-contact .header-phone{display:inline-flex!important;align-items:center;font-size:16px;font-weight:800;margin:0;color:#173444}
+.header-book-btn,.booking-section-btn{border:0;border-radius:999px;background:#e20c68;color:#fff;font:900 16px Nunito,sans-serif;padding:11px 20px;min-height:44px;box-shadow:0 3px 0 #ad1259;transition:transform .2s,box-shadow .2s}
+.header-book-btn:hover,.booking-section-btn:hover{transform:translateY(-2px);box-shadow:0 5px 0 #ad1259}
+.header-inner nav{order:3;flex-basis:100%;margin:0;justify-content:center;padding-bottom:3px}
+.header-inner .menu-toggle{order:2}
+.booking-contact-row{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin:12px 0}
+.booking-contact-row .booking-phone{display:inline-flex;margin:0}
+.booking-section-btn{background:#fff;color:#d90d61;box-shadow:0 3px 0 #ffffff77}
+.booking-section-btn:hover{box-shadow:0 5px 0 #ffffff77}
+@media(max-width:1050px){.header-inner{min-height:82px;flex-wrap:nowrap}.header-inner nav{display:none}.header-contact{margin-left:auto}}
+@media(max-width:620px){
+.header-inner{display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"brand menu" "contact contact";gap:6px 12px;min-height:0;height:auto;padding:8px 0 11px}
+.header-inner .brand{grid-area:brand}
+.header-inner .menu-toggle{grid-area:menu;display:block}
+.header-contact{grid-area:contact;width:100%;justify-content:space-between;margin:0;border-top:1px solid #f3ebdd;padding-top:7px;gap:8px}
+.header-contact .header-phone{font-size:15px}
+.header-book-btn{font-size:15px;min-height:40px;padding:8px 16px}
+.booking-contact-row{gap:12px}
+}
