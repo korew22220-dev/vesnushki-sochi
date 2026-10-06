@@ -113,3 +113,7 @@ footer{background:#eff9ff}
 .booking-compact .booking-privacy{margin-top:28px}
 .booking-compact .booking-direct-link{margin-top:6px}
 @media(max-width:620px){.booking-compact{min-height:0;padding:30px 24px}.booking-compact-symbol{margin-bottom:16px}.booking-compact>p:not(.booking-privacy){font-size:16px}.booking-compact::before{width:155px;height:155px;right:-54px;top:-52px}.booking-compact::after{width:54px;height:54px;right:18px;bottom:62px;border-width:9px}}
+
+.booking-section .booking-compact>p:not(.booking-privacy){color:#183d61}
+.booking-section .booking-compact .booking-privacy{color:#3c5264}
+.booking-section .booking-compact .booking-compact-symbol{color:#eb2690}
