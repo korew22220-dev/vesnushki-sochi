@@ -133,3 +133,57 @@ header{background:#fff;border:0;box-shadow:none}.header-inner{height:91px;max-wi
 #promotion .promo-poster-footer .btn{margin:0;min-height:44px;padding:10px 12px;font-size:15px}
 #promotion .promo-poster-footer small{display:block;font-size:11px;line-height:1.4;margin-top:6px;color:#293f35}
 #promotion .close{position:absolute;top:8px;right:8px;width:36px;height:36px;font-size:25px;background:#fff;border:1px solid #eee;color:#173444}
+
+/* Wide anniversary poster and centered booking dialog. */
+#promotion{width:min(940px,calc(100% - 28px));max-width:calc(100% - 28px);max-height:calc(100dvh - 32px);border:0;border-radius:30px;overflow:auto;padding:0;background:#ffea20;text-align:left;box-shadow:0 28px 80px #08171a55}
+#promotion .promo-scene{position:relative;min-height:540px;overflow:hidden}
+#promotion .promo-wide-art{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center}
+#promotion .close{z-index:3;top:18px;left:18px;right:auto;background:#fff;box-shadow:0 4px 10px #15344d28}
+#promotion .promo-open-booking{position:absolute;top:20px;right:22px;z-index:2;border:3px solid #fff;border-radius:999px;background:#e20c68;color:#fff;font:900 17px Nunito,sans-serif;padding:11px 22px;box-shadow:0 5px 0 #a80e56;transition:transform .2s,box-shadow .2s}
+#promotion .promo-open-booking:hover{transform:translateY(-2px);box-shadow:0 7px 0 #a80e56}
+#promotion .promo-copy{position:relative;z-index:1;width:54%;padding:62px 20px 26px 46px;color:#0c2861}
+#promotion .promo-brand{display:inline-block;background:#fff;padding:8px 18px;border-radius:28px;font:800 19px Nunito,sans-serif;line-height:1.15;margin:0 0 10px;box-shadow:0 3px 0 #ffffff87}
+#promotion .promo-brand b{color:#d60965}
+#promotion h2{font:900 clamp(42px,5.9vw,71px)/.98 Nunito,sans-serif;letter-spacing:-2px;color:#e70872;margin:0 0 15px;text-shadow:2px 3px 0 #fff}
+#promotion h2 span{font-size:1.36em;color:#00b9b6}
+#promotion .promo-brush{display:inline-block;transform:rotate(-2deg);background:#eb096c;color:white;border-radius:10px 35px 12px 26px;padding:9px 18px;font:800 20px/1.13 Nunito,sans-serif;margin:0 0 14px;box-shadow:3px 6px 0 #ff8cb9}
+#promotion .promo-brush strong{display:block;color:#ffe82d;font-size:34px;line-height:1}
+#promotion .promo-price-panel{position:relative;background:#fff;padding:14px 68px 14px 18px;border-radius:25px 35px 24px 30px;transform:rotate(-1deg);width:min(100%,430px);box-shadow:0 5px 0 #fff6}
+#promotion .promo-price-panel>span{font:900 19px Nunito,sans-serif;color:#0d2d72}
+#promotion .promo-price-panel div{display:flex;gap:12px;align-items:center;flex-wrap:wrap}
+#promotion .promo-price-panel del{font:900 19px Nunito,sans-serif;color:#0d2d72;white-space:nowrap;text-decoration-color:#ec0d72;text-decoration-thickness:3px}
+#promotion .promo-price-panel strong{font:1000 36px Nunito,sans-serif;color:#e60871;white-space:nowrap;line-height:1.15;background:#ffea2d;border-radius:12px;padding:2px 7px}
+#promotion .promo-discount{position:absolute;right:-10px;top:35px;display:grid;place-items:center;width:68px;height:68px;border-radius:50%;background:#e60871;color:#fff;font:900 23px Nunito,sans-serif;transform:rotate(9deg)}
+#promotion .promo-copy>small{display:block;margin:13px 0 0 8px;font:700 13px Nunito,sans-serif;color:#0d2d72}
+#promo-booking{width:min(480px,calc(100% - 28px));max-height:calc(100dvh - 28px);overflow:auto;border:0;border-radius:28px;padding:0;background:#fffdf2;color:#173444;box-shadow:0 30px 90px #15281966}
+#promo-booking .close{z-index:2;top:12px;right:12px;background:#fff;border-radius:50%;box-shadow:0 4px 14px #1225}
+#promo-booking .promo-booking-content{padding:38px}
+#promo-booking .eyebrow{font:900 12px Nunito,sans-serif;letter-spacing:1.5px;color:#de0a69;margin-bottom:9px}
+#promo-booking h2{font:900 33px/1.1 Nunito,sans-serif;letter-spacing:-.5px;margin:0 35px 12px 0;color:#173444}
+#promo-booking .promo-booking-content>p:not(.eyebrow){font-size:15px;line-height:1.5;margin-bottom:18px}
+#promo-booking form{display:grid;gap:13px;margin:0;padding:0;background:transparent;box-shadow:none;border:0}
+#promo-booking form label{display:grid;gap:5px;font:800 14px Nunito,sans-serif}
+#promo-booking input,#promo-booking select{width:100%;height:47px;border:1px solid #cbd4ca;border-radius:12px;background:#fff;padding:10px 13px;font-size:16px}
+#promo-booking form .btn{width:100%;background:#e10f6c;border-color:#e10f6c;font-size:17px;border-radius:14px;margin-top:4px;min-height:49px}
+#promo-booking .promo-booking-hint{font-size:12px;line-height:1.4;margin:0;color:#52635e}
+#promo-booking .promo-booking-status{font-size:13px;line-height:1.4;margin:0;color:#173444}
+#promo-booking .promo-booking-phone{display:block;margin-top:15px;color:#143f77;text-align:center;font-size:15px;font-weight:800;text-decoration:underline;text-underline-offset:3px}
+@media(max-width:700px){
+#promotion{width:min(410px,calc(100% - 20px));max-width:calc(100% - 20px);border-radius:22px}
+#promotion .promo-scene{min-height:0;padding-top:245px}
+#promotion .promo-wide-art{height:260px;object-position:67% 42%}
+#promotion .promo-copy{width:100%;padding:18px 20px 24px;background:#ffeb2a}
+#promotion .close{top:10px;left:10px}
+#promotion .promo-open-booking{top:12px;right:12px;font-size:15px;padding:8px 16px}
+#promotion .promo-brand{font-size:16px;margin-bottom:6px}
+#promotion h2{font-size:48px;margin-bottom:10px}
+#promotion .promo-brush{font-size:17px;margin-bottom:12px}
+#promotion .promo-brush strong{font-size:29px}
+#promotion .promo-price-panel{width:100%;padding:10px 64px 12px 14px}
+#promotion .promo-price-panel>span{font-size:16px}
+#promotion .promo-price-panel del{font-size:16px}
+#promotion .promo-price-panel strong{font-size:30px}
+#promotion .promo-discount{width:56px;height:56px;right:-6px;font-size:19px}
+#promotion .promo-copy>small{font-size:12px;margin-top:9px}
+#promo-booking .promo-booking-content{padding:32px 22px 24px}
+}
