@@ -101,3 +101,15 @@ footer{background:#eff9ff}
 #promo-booking .booking-privacy{margin:8px 0 10px}
 @media(max-width:620px){.booking-embed{padding:20px 14px;border-radius:25px}.booking-embed h3{font-size:26px}.yandex-booking-frame{height:800px}#contact-form .yandex-booking-frame{min-height:1450px}#promo-booking .yandex-booking-frame{height:68dvh}}
 .booking-direct-link{display:inline-block;margin-top:12px;color:#b9005a;font:800 15px/1.4 Nunito,sans-serif;text-decoration:underline;text-underline-offset:3px}
+
+/* Compact lower booking card; full form remains in the modal */
+.booking-compact{position:relative;isolation:isolate;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;min-height:460px;padding:42px 40px;overflow:hidden}
+.booking-compact::before{content:'';position:absolute;z-index:-1;right:-55px;top:-70px;width:240px;height:240px;border-radius:50%;background:#ffe451}
+.booking-compact::after{content:'';position:absolute;z-index:-1;right:35px;bottom:20px;width:88px;height:88px;border:13px solid #60d8d3;border-radius:50%;opacity:.7}
+.booking-compact-symbol{font-size:36px;line-height:1;color:#eb2690;margin-bottom:24px}
+.booking-compact h3{font-size:clamp(30px,3vw,42px);line-height:1.14;margin:0 0 16px}
+.booking-compact>p:not(.booking-privacy){max-width:380px;font-size:18px;line-height:1.5;margin:0 0 24px}
+.booking-compact .btn{min-width:210px}
+.booking-compact .booking-privacy{margin-top:28px}
+.booking-compact .booking-direct-link{margin-top:6px}
+@media(max-width:620px){.booking-compact{min-height:0;padding:30px 24px}.booking-compact-symbol{margin-bottom:16px}.booking-compact>p:not(.booking-privacy){font-size:16px}.booking-compact::before{width:155px;height:155px;right:-54px;top:-52px}.booking-compact::after{width:54px;height:54px;right:18px;bottom:62px;border-width:9px}}
