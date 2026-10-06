@@ -10,3 +10,19 @@ const legal=$('#legal');$$('[data-legal]').forEach(b=>b.onclick=()=>{const conse
 $('#contact-form')?.addEventListener('submit',event=>{event.preventDefault();if(event.currentTarget.reportValidity())$('#form-status').textContent='Приём заявок пока не подключён. Позвоните: '+cms.phone});
 async function recordVisit(){if(!cms.token)return;let session={id:crypto.randomUUID(),last:Date.now()};try{const stored=JSON.parse(sessionStorage.getItem('vesnushki-garden-visit')||'null');if(stored?.id&&Date.now()-stored.last<1800000)session.id=stored.id;sessionStorage.setItem('vesnushki-garden-visit',JSON.stringify(session))}catch{}try{await fetch('/api/visit',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({token:cms.token,session:session.id,referrer:document.referrer}),keepalive:true})}catch{}}
 recordVisit();
+
+const promoBooking=$('#promo-booking');
+promotion.querySelector('.promo-open-booking').addEventListener('click',()=>{
+  dismissPromo();
+  promoBooking.showModal();
+});
+$('#promo-booking-form').addEventListener('submit',event=>{
+  event.preventDefault();
+  const form=event.currentTarget;
+  if(!form.reportValidity())return;
+  const data=new FormData(form);
+  const message='Здравствуйте! Хочу записаться на экскурсию в детский сад «Веснушки» по акции «10 лет». Имя: '+String(data.get('name')).trim()+'. Возраст ребёнка: '+String(data.get('age'))+'. Телефон для связи: '+String(data.get('phone')).trim()+'.';
+  const url='https://wa.me/79882330566?text='+encodeURIComponent(message);
+  window.open(url,'_blank','noopener,noreferrer');
+  $('.promo-booking-status').textContent='Сообщение подготовлено. Подтвердите отправку в WhatsApp. Если новое окно не открылось, позвоните по номеру ниже.';
+});
