@@ -91,13 +91,13 @@ footer{background:#eff9ff}
 @media(max-width:620px){.hero::before{background-size:auto 100%;background-position:center top}.group .text-link{font-size:18px}.hero .actions .btn,.hero .actions .text-link{font-size:18px}}
 
 /* Embedded Yandex booking form */
-.booking-embed{min-width:0;background:#fffdf2;border:4px solid #fff;border-radius:32px;padding:28px 26px;box-shadow:0 16px 34px #17436e20}
-.booking-embed h3{font:900 29px/1.12 Nunito,sans-serif;color:#183d61;margin:0 0 16px}
+.booking-embed{min-width:0;background:#fffdf2;border:4px solid #fff;border-radius:32px;padding:22px 24px;box-shadow:0 16px 34px #17436e20}
+.booking-embed h3{font:900 29px/1.12 Nunito,sans-serif;color:#183d61;margin:0 0 12px}
 .yandex-booking-frame{display:block;width:100%;height:760px;border:0;background:#fff;border-radius:18px}
-#contact-form .yandex-booking-frame{min-height:1220px}
+#contact-form .yandex-booking-frame{min-height:1160px}
 .booking-privacy{font:600 13px/1.55 Nunito,sans-serif;color:#3c5264;margin:12px 0 0}
 .booking-privacy .inline-link{font:inherit;color:#b9005a;text-decoration:underline}
 #promo-booking .yandex-booking-frame{height:min(760px,72dvh);border-radius:14px}
 #promo-booking .booking-privacy{margin:8px 0 10px}
-@media(max-width:620px){.booking-embed{padding:20px 14px;border-radius:25px}.booking-embed h3{font-size:26px}.yandex-booking-frame{height:800px}#contact-form .yandex-booking-frame{min-height:1550px}#promo-booking .yandex-booking-frame{height:68dvh}}
+@media(max-width:620px){.booking-embed{padding:20px 14px;border-radius:25px}.booking-embed h3{font-size:26px}.yandex-booking-frame{height:800px}#contact-form .yandex-booking-frame{min-height:1450px}#promo-booking .yandex-booking-frame{height:68dvh}}
 .booking-direct-link{display:inline-block;margin-top:12px;color:#b9005a;font:800 15px/1.4 Nunito,sans-serif;text-decoration:underline;text-underline-offset:3px}
