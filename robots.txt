@@ -1,2 +1,4 @@
 User-agent: *
-Disallow: /
+Allow: /
+
+Sitemap: https://korew22220-dev.github.io/vesnushki-sochi/sitemap.xml
