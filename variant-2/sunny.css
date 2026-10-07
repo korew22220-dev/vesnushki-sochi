@@ -254,3 +254,21 @@ header{background:#fff;border:0;box-shadow:none}.header-inner{height:91px;max-wi
 .teacher-carousel-dots button[aria-current="true"]{width:24px;border-radius:999px;background:#e51d70}
 @media(max-width:900px){.teacher-carousel,.teacher-carousel-viewport,.teacher-carousel-empty{min-height:300px}.teacher-slide{height:330px}}
 @media(max-width:620px){.teacher-carousel,.teacher-carousel-viewport,.teacher-carousel-empty{min-height:260px}.teacher-carousel-empty{padding:24px 18px}.teacher-carousel-empty>span{width:76px;height:76px;font-size:45px;margin-bottom:14px}.teacher-carousel-empty p{font-size:19px}.teacher-slide{height:280px}}
+
+/* Fit the desktop navigation, phone, and booking action on one row. */
+@media(min-width:1051px){
+  .header-inner{flex-wrap:nowrap;gap:clamp(6px,.7vw,10px)}
+  .header-inner nav{font-size:clamp(11px,1.05vw,14px);gap:clamp(4px,.48vw,7px);flex-shrink:1}
+  .header-inner nav a{font-size:inherit}
+  .header-inner .header-contact{gap:clamp(6px,.65vw,9px)}
+  .header-inner .header-contact .header-phone{font-size:clamp(11px,.95vw,13px)}
+  .header-book-btn{font-size:clamp(12px,1.02vw,14px);padding:8px clamp(9px,1vw,14px)}
+}
+@media(min-width:1051px) and (max-width:1180px){
+  .header-inner{width:calc(100% - 24px)}
+  .header-inner .brand{font-size:19px}
+  .header-inner .brand .sun,.header-inner .brand .sun img{width:44px;height:44px;flex-basis:44px}
+  .header-inner nav{font-size:11px;gap:4px}
+  .header-inner .header-contact .header-phone{font-size:11px}
+  .header-book-btn{font-size:12px;padding:7px 9px}
+}
