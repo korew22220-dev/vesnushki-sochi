@@ -272,3 +272,13 @@ header{background:#fff;border:0;box-shadow:none}.header-inner{height:91px;max-wi
   .header-inner .header-contact .header-phone{font-size:11px}
   .header-book-btn{font-size:12px;padding:7px 9px}
 }
+
+/* Slightly larger navigation for better readability. */
+#mobile-menu a{font-size:19px}
+@media(min-width:1051px){
+  .header-inner nav{font-size:clamp(13px,1.1vw,16px);gap:clamp(5px,.5vw,8px)}
+  .header-inner nav a{font-size:inherit}
+}
+@media(min-width:1051px) and (max-width:1180px){
+  .header-inner nav{font-size:13px;gap:4px}
+}
