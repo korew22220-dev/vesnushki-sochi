@@ -211,3 +211,46 @@ header{background:#fff;border:0;box-shadow:none}.header-inner{height:91px;max-wi
 .header-book-btn{font-size:15px;min-height:40px;padding:8px 16px}
 .booking-contact-row{gap:12px}
 }
+
+/* Desktop header: keep the brand, menu, phone, and booking button on one row. */
+@media(min-width:1051px){
+.header-inner{height:auto;min-height:84px;flex-wrap:nowrap;gap:10px;padding:7px 0}
+.header-inner .brand{order:0;flex:0 0 auto;gap:7px;font-size:23px}
+.header-inner .brand .sun{display:flex;width:56px;height:56px;align-items:center;justify-content:center;flex:0 0 56px}
+.header-inner .brand .sun img{display:block;width:56px;height:56px;object-fit:contain}
+.header-inner nav{display:flex!important;order:1;flex:1 1 auto;flex-basis:auto;min-width:0;margin:0;justify-content:center;gap:clamp(5px,.72vw,10px);padding:0;font-size:clamp(10px,.88vw,12px);white-space:nowrap}
+.header-inner nav a{font-size:inherit;padding:7px 0}
+.header-contact{order:2;flex:0 0 auto;margin-left:0;gap:9px}
+.header-inner .header-contact .header-phone{display:inline-flex!important;font-size:13px}
+.header-book-btn{font-size:14px;padding:9px 14px;min-height:40px}
+.header-inner .menu-toggle{display:none}
+}
+@media(min-width:1051px) and (max-width:1180px){
+.header-inner{width:calc(100% - 30px);gap:7px}
+.header-inner .brand{font-size:20px}
+.header-inner .brand .sun{width:48px;height:48px;flex-basis:48px}
+.header-inner .brand .sun img{width:48px;height:48px}
+.header-inner nav{gap:5px;font-size:10px}
+.header-contact{gap:7px}
+.header-inner .header-contact .header-phone{font-size:12px}
+.header-book-btn{font-size:13px;padding:8px 11px}
+}
+/* Teacher photo carousel */
+.teacher-carousel{position:relative;min-width:0;min-height:340px;overflow:hidden;border-radius:34px;background:linear-gradient(145deg,#fff4b1 0%,#fffdf2 52%,#d5f6e8 100%);box-shadow:0 12px 28px #203c3310}
+.teacher-carousel-viewport{position:relative;min-height:340px}
+.teacher-carousel-empty{min-height:340px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:30px;color:#183d61}
+.teacher-carousel-empty>span{display:grid;place-items:center;width:100px;height:100px;border-radius:50%;background:#ffdf49;color:#e82878;font-size:60px;line-height:1;box-shadow:0 8px 0 #f3bd20;margin-bottom:20px}
+.teacher-carousel-empty p{font-size:22px;font-weight:900;margin:0 0 6px}
+.teacher-carousel-empty small{font-size:15px;color:#52647a}
+.teacher-slide{display:none;position:relative;margin:0;width:100%;height:390px;background:#f2f4ea}
+.teacher-slide.is-active{display:block}
+.teacher-slide img{display:block;width:100%;height:100%;object-fit:cover}
+.teacher-slide figcaption{position:absolute;left:18px;right:18px;bottom:16px;width:max-content;max-width:calc(100% - 36px);padding:8px 14px;border-radius:999px;background:#fffef2ed;color:#183d61;font-size:14px;font-weight:800}
+.teacher-carousel-controls{display:flex;align-items:center;justify-content:center;gap:18px;padding:12px 18px 16px}
+.teacher-carousel-controls[hidden]{display:none!important}
+.teacher-carousel-controls button{display:grid;place-items:center;width:40px;height:40px;border:0;border-radius:50%;background:#e51d70;color:white;font-size:22px;cursor:pointer}
+.teacher-carousel-dots{display:flex;align-items:center;gap:8px}
+.teacher-carousel-dots button{width:10px;height:10px;min-height:10px;padding:0;background:#b6d8c8;box-shadow:none}
+.teacher-carousel-dots button[aria-current="true"]{width:24px;border-radius:999px;background:#e51d70}
+@media(max-width:900px){.teacher-carousel,.teacher-carousel-viewport,.teacher-carousel-empty{min-height:300px}.teacher-slide{height:330px}}
+@media(max-width:620px){.teacher-carousel,.teacher-carousel-viewport,.teacher-carousel-empty{min-height:260px}.teacher-carousel-empty{padding:24px 18px}.teacher-carousel-empty>span{width:76px;height:76px;font-size:45px;margin-bottom:14px}.teacher-carousel-empty p{font-size:19px}.teacher-slide{height:280px}}
