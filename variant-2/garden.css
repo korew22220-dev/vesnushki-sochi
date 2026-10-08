@@ -148,3 +148,17 @@ footer{background:#eff9ff}
 .rights-disclosure[open]{flex-basis:100%}
 .rights-disclosure-panel{max-width:1080px;margin:14px 0 4px;color:#74807a;font-size:14px;line-height:1.65;text-align:left}
 @media(max-width:620px){.rights-disclosure{flex-basis:100%;min-width:0}.rights-disclosure-panel{font-size:13px;line-height:1.55}}
+
+
+/* Copyright notice popup */
+.footer-copyline{display:inline-flex;align-items:baseline;flex-wrap:wrap;gap:0 5px}
+.rights-open{padding:0;border:0;background:transparent;color:inherit;font:inherit;cursor:pointer;text-decoration:underline;text-decoration-style:dotted;text-underline-offset:4px}
+.rights-open:hover{color:#d81f62}
+.rights-open:focus-visible{outline:2px solid #1688c2;outline-offset:4px;border-radius:4px}
+#rights-notice{position:relative;width:min(650px,calc(100% - 32px));max-width:none;max-height:min(78vh,680px);padding:clamp(28px,5vw,48px);border:0;border-radius:32px;background:#fffdf2;color:#274238;box-shadow:0 25px 80px #173b2f55;overflow-y:auto}
+#rights-notice::backdrop{background:#173c2e99;backdrop-filter:blur(3px)}
+#rights-notice .rights-dialog-content{max-width:540px;margin:0 auto}
+#rights-notice .eyebrow{margin:0 0 10px}
+#rights-notice h2{margin:0 0 20px;font-size:clamp(28px,4vw,38px);line-height:1.15}
+#rights-notice .rights-dialog-copy{margin:0;color:#59665e;font-size:15px;line-height:1.7;text-align:left}
+@media(max-width:620px){#rights-notice{width:calc(100% - 24px);max-height:82vh;padding:34px 24px;border-radius:26px}#rights-notice .rights-dialog-copy{font-size:14px;line-height:1.6}}
