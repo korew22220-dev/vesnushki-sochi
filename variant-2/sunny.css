@@ -286,3 +286,33 @@ header{background:#fff;border:0;box-shadow:none}.header-inner{height:91px;max-wi
 /* Keep pricing cards and booking buttons aligned. */
 #prices .prices{align-items:stretch}
 #prices .price .btn{margin-top:auto}
+
+/* One shared visual style for all excursion booking links. */
+#main a.booking-cta,
+#prices .price a.booking-cta{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:56px;
+  padding:15px 24px;
+  border:0;
+  border-radius:100px;
+  background:#d81862;
+  color:#fff;
+  font:900 17px/1.2 Nunito,Arial,sans-serif;
+  text-decoration:none;
+  box-shadow:0 6px 0 #bd14502a;
+  transition:background-color .2s ease,transform .2s ease,box-shadow .2s ease;
+}
+#main a.booking-cta:hover,
+#prices .price a.booking-cta:hover{
+  background:#b91553;
+  border-color:#b91553;
+  color:#fff;
+  transform:translateY(-1px);
+}
+#main a.booking-cta:focus-visible,
+#prices .price a.booking-cta:focus-visible{
+  outline:3px solid #17254b;
+  outline-offset:3px;
+}
