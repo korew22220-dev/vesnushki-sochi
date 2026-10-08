@@ -282,3 +282,7 @@ header{background:#fff;border:0;box-shadow:none}.header-inner{height:91px;max-wi
 @media(min-width:1051px) and (max-width:1180px){
   .header-inner nav{font-size:13px;gap:4px}
 }
+
+/* Keep pricing cards and booking buttons aligned. */
+#prices .prices{align-items:stretch}
+#prices .price .btn{margin-top:auto}
