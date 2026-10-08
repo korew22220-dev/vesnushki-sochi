@@ -131,3 +131,8 @@ footer{background:#eff9ff}
 /* Responsive 2GIS map embed */
 .contact-map{min-width:0;overflow:hidden;border-radius:28px}
 .contact-map iframe{display:block;width:100%!important;max-width:100%;}
+
+
+/* Legal information note in the footer */
+.site-disclaimer{max-width:1080px;margin:28px auto 8px;color:#74807a;font-size:15px;line-height:1.65;text-align:center}
+@media(max-width:620px){.site-disclaimer{margin:20px 4px 8px;font-size:13px;line-height:1.55;text-align:left}}
