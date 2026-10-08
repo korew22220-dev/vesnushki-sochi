@@ -136,3 +136,15 @@ footer{background:#eff9ff}
 /* Legal information note in the footer */
 .site-disclaimer{max-width:1080px;margin:28px auto 8px;color:#74807a;font-size:15px;line-height:1.65;text-align:center}
 @media(max-width:620px){.site-disclaimer{margin:20px 4px 8px;font-size:13px;line-height:1.55;text-align:left}}
+
+
+/* Expandable rights notice in the footer */
+.rights-disclosure{flex:1 1 52%;min-width:260px;color:#58635d}
+.rights-disclosure summary{display:inline-block;list-style:none;cursor:pointer;text-underline-offset:3px}
+.rights-disclosure summary::-webkit-details-marker{display:none}
+.rights-disclosure .rights-label{text-decoration:underline;text-decoration-style:dotted;text-underline-offset:4px}
+.rights-disclosure .rights-label::after{content:' +';color:#d81f62;font-weight:900}
+.rights-disclosure[open] .rights-label::after{content:' −'}
+.rights-disclosure[open]{flex-basis:100%}
+.rights-disclosure-panel{max-width:1080px;margin:14px 0 4px;color:#74807a;font-size:14px;line-height:1.65;text-align:left}
+@media(max-width:620px){.rights-disclosure{flex-basis:100%;min-width:0}.rights-disclosure-panel{font-size:13px;line-height:1.55}}
