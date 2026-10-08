@@ -117,3 +117,12 @@ footer{background:#eff9ff}
 .booking-section .booking-compact>p:not(.booking-privacy){color:#183d61}
 .booking-section .booking-compact .booking-privacy{color:#3c5264}
 .booking-section .booking-compact .booking-compact-symbol{color:#eb2690}
+
+
+/* Rounded pastel meal cards */
+.meals>span{position:relative;overflow:hidden;border:0;background:#ffe4ef;color:#a63d69;border-radius:32px 24px 34px 22px;padding:17px 14px;box-shadow:0 5px 14px #a14a5a12;}
+.meals>span:nth-child(2){background:#e6f6ce;color:#4e7b30;border-radius:24px 34px 22px 32px;}
+.meals>span:nth-child(3){background:#d9f2ff;color:#317393;border-radius:34px 22px 32px 24px;}
+.meals>span:nth-child(4){background:#fff0bd;color:#9a7120;border-radius:22px 32px 24px 34px;}
+.meals>span::before{content:'';position:absolute;right:-9px;top:-12px;width:34px;height:34px;border-radius:50%;background:#ffffff55;}
+.meals b{color:#293f35;}
