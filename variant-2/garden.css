@@ -126,3 +126,8 @@ footer{background:#eff9ff}
 .meals>span:nth-child(4){background:#fff0bd;color:#9a7120;border-radius:22px 32px 24px 34px;}
 .meals>span::before{content:'';position:absolute;right:-9px;top:-12px;width:34px;height:34px;border-radius:50%;background:#ffffff55;}
 .meals b{color:#293f35;}
+
+
+/* Responsive 2GIS map embed */
+.contact-map{min-width:0;overflow:hidden;border-radius:28px}
+.contact-map iframe{display:block;width:100%!important;max-width:100%;}
