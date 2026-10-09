@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://korew22220-dev.github.io/vesnushki-sochi/sitemap.xml
+Sitemap: https://vesnushki-sochi23.ru/sitemap.xml
