@@ -318,3 +318,6 @@ header{background:#fff;border:0;box-shadow:none}.header-inner{height:91px;max-wi
   outline:3px solid #17254b;
   outline-offset:3px;
 }
+
+/* Keep the new portrait centered on the face in the about-section circle. */
+#about .about-collage img:nth-child(2)[src$="photo-about-circle-20261010.jpg"]{object-position:center 12%}
