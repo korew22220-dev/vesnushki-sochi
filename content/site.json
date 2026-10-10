@@ -96,5 +96,12 @@
     "teacher-yulia-andreeva.webp": "teacher-yulia-andreeva.webp",
     "teacher-ekaterina-shashkova.webp": "teacher-ekaterina-shashkova.webp",
     "teacher-stanislava-safronova.webp": "teacher-stanislava-safronova.webp"
+  },
+  "promotion": {
+    "active": true,
+    "description": "Акция «Нам 10 лет» — скидка 10% на месячный абонемент полного дня",
+    "endLabel": "Акция действует до 30.11.2026",
+    "discount": "−10%",
+    "popupEnd": "Полный день · Акция до 30.11.2026"
   }
 }
