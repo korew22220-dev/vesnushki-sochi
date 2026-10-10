@@ -321,3 +321,16 @@ header{background:#fff;border:0;box-shadow:none}.header-inner{height:91px;max-wi
 
 /* Keep the new portrait centered on the face in the about-section circle. */
 #about .about-collage img:nth-child(2)[src$="photo-about-circle-20261010.jpg"]{object-position:center 12%}
+
+/* Messenger links use the original brand assets at a comfortable touch size. */
+.messenger-links{display:flex;align-items:center;gap:4px;flex-shrink:0}
+.messenger-link{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;flex:0 0 44px;border-radius:50%;text-decoration:none;transition:background-color .2s}
+.messenger-link[hidden]{display:none!important}
+.messenger-link img{display:block;width:30px;height:30px;object-fit:contain}
+.messenger-link:hover{background:#eeeadd}
+.messenger-link:focus-visible{outline:3px solid #17254b;outline-offset:3px}
+.footer-contact{display:flex;align-items:center;gap:18px;flex-wrap:wrap;padding:18px 0}
+.footer-phone{color:#173444;font-size:19px;font-weight:800;white-space:nowrap}
+@media(min-width:1051px){.header-inner .messenger-links{gap:0}.header-inner .messenger-link{width:40px;flex-basis:40px}}
+@media(min-width:1051px) and (max-width:1320px){.header-inner{flex-wrap:wrap}.header-inner nav{order:3;flex:1 0 100%;padding:5px 0}.header-inner .header-contact{margin-left:auto}}
+@media(max-width:620px){.header-contact{flex-wrap:wrap;justify-content:flex-start;gap:4px 10px}.header-contact .header-phone{order:0;margin-right:auto}.header-contact .messenger-links{order:1}.header-contact .header-book-btn{order:2;flex:0 0 100%;margin-top:3px}.footer-contact{justify-content:space-between;gap:12px}}

@@ -85,6 +85,9 @@ def render(content, template=None, now=None):
         if node.tag=='a' and (a.get('href') or '').startswith('tel:'):
             digits = re.sub(r'\D', '', contact['phone'])
             attrs(node, {'href':'tel:+7'+digits[1:]})
+        if a.get('data-messenger') == 'whatsapp':
+            digits = re.sub(r'\D', '', contact['phone'])
+            attrs(node, {'href':'https://wa.me/7'+digits[1:]})
         if node.has_class('promo-booking-phone'):
             inner(node, 'Или позвонить: '+escape(contact['phone']))
         if 'data-price' in a:
