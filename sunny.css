@@ -331,8 +331,9 @@ header{background:#fff;border:0;box-shadow:none}.header-inner{height:91px;max-wi
 .messenger-link:focus-visible{outline:3px solid #17254b;outline-offset:3px}
 .footer-contact{display:flex;align-items:center;gap:18px;flex-wrap:wrap;padding:18px 0}
 .footer-phone{color:#173444;font-size:19px;font-weight:800;white-space:nowrap}
-/* WhatsApp stays available without consuming space in the header row. */
-.floating-whatsapp{position:fixed;right:24px;bottom:24px;z-index:90;width:58px;height:58px;border:1px solid #dce8da;background:#fff;box-shadow:0 5px 22px #163b4633}
-.floating-whatsapp img{width:38px;height:38px}
-.floating-whatsapp:hover{background:#fff;box-shadow:0 7px 26px #163b4644}
-@media(max-width:620px){.floating-whatsapp{right:16px;bottom:calc(92px + env(safe-area-inset-bottom));width:54px;height:54px}.floating-whatsapp img{width:34px;height:34px}.footer-contact{justify-content:space-between;gap:12px}}
+/* Compact WhatsApp icon between navigation and phone. */
+.header-inner .header-whatsapp{width:34px;height:44px;flex:0 0 34px;margin:0;border:0;background:transparent;box-shadow:none}
+.header-inner .header-whatsapp img{width:24px;height:24px}
+.header-inner .header-whatsapp:hover{background:#eef9ec}
+@media(max-width:620px){.footer-contact{justify-content:space-between;gap:12px}.header-contact{justify-content:flex-end;gap:8px}.header-contact .header-phone{margin-right:auto}.header-contact .header-whatsapp{order:-1;flex-basis:30px;width:30px}}
+@media(max-width:360px){.header-contact{gap:5px}.header-contact .header-phone{font-size:13px}.header-contact .header-book-btn{font-size:14px;padding:8px 12px}}
