@@ -68,7 +68,7 @@ async function route(req,env){
   if(!response.ok)throw new APIError(400,'Не удалось изменить пароль. Войдите снова и повторите');return json({ok:true});
  }
  if(path==='/api/cms'&&req.method==='GET'){
-  const current=await head(env);const content=await document(env,current.object.sha);validate(content);
+  const current=await head(env);const content=await document(env,current.object.sha);content.links.link35??='#main';validate(content);
   return json({content,version:current.object.sha,fields,editor});
  }
  if(path==='/api/media'&&req.method==='POST'){

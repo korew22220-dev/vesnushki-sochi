@@ -26,7 +26,7 @@ export function validate(c){
  out.gallery=list(c.gallery,100);
  for(const block of editor.blocks){if(typeof c.blocks?.[block.key]!=='boolean')fail('Проверьте видимость разделов');out.blocks[block.key]=c.blocks[block.key];out.extras[block.key]=list(c.extras?.[block.key],30)}
  out.teachers=list(c.teachers,30).map((p,i)=>({...p,name:str(c.teachers[i].name,160),role:str(c.teachers[i].role,200)}));
- for(const f of editor.links)out.links[f.key]=safeURL(c.links?.[f.key]);
+ for(const f of editor.links)out.links[f.key]=safeURL(c.links?.[f.key] ?? (f.key==='link35'?'#main':undefined));
  for(const f of editor.attributes)out.attributes[f.key]=f.kind==='text'?str(c.attributes?.[f.key],f.max):safeURL(c.attributes?.[f.key]);
  for(const key of ['privacy','consent'])out.legal[key]=str(c.legal?.[key],12000);
  return out;

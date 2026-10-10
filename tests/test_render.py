@@ -23,6 +23,12 @@ class Rendering(unittest.TestCase):
             self.assertEqual(self.text(doc,key),['Проверка <script>&"']*len(self.text(doc,key)),key)
             self.assertTrue(self.text(doc,key),key)
             self.assertNotIn('<script>&"',doc.source)
+    def test_editor_links_match_template_markers(self):
+        editor=json.loads((ROOT/'admin/editor.json').read_text())
+        template=Document((ROOT/'site-template.html').read_text())
+        marked={n.attrs['data-cms-link'] for n in template.nodes if 'data-cms-link' in n.attrs}
+        self.assertEqual({f['key'] for f in editor['links']},marked)
+
     def test_prices_and_promotion_are_consistent(self):
         c=copy.deepcopy(self.content);c['prices']['full']=35000;c['promotion']['price']=30000
         doc=self.page(c)
