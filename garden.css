@@ -162,3 +162,5 @@ footer{background:#eff9ff}
 #rights-notice h2{margin:0 0 20px;font-size:clamp(28px,4vw,38px);line-height:1.15}
 #rights-notice .rights-dialog-copy{margin:0;color:#59665e;font-size:15px;line-height:1.7;text-align:left}
 @media(max-width:620px){#rights-notice{width:calc(100% - 24px);max-height:82vh;padding:34px 24px;border-radius:26px}#rights-notice .rights-dialog-copy{font-size:14px;line-height:1.6}}
+
+.cms-extra-photos{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:24px;margin-top:24px}.cms-extra-photos img{width:100%;border-radius:18px}.cms-promo-live{background:#fff1c2;padding:24px;gap:20px;align-items:center}.cms-promo-live strong{font-size:28px}.cms-promo-live .cms-promo-price{font-size:28px;white-space:nowrap}

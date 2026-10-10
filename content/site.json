@@ -1,107 +1,417 @@
 {
-  "hero": {
-    "description": "Мы за мягкую адаптацию. У нас тепло, уютно, интересно: мы играем, учимся и дружим. В каждой группе — до 15 детей.",
-    "age": "Принимаем детей с 1,5 до 7 лет"
+  "schemaVersion": 2,
+  "texts": {
+    "other.copy1": "К содержанию",
+    "header.copy1": "Веснушки",
+    "header.copy2": "ДЕТСКИЙ САД В СОЧИ",
+    "header.copy3": "О саде",
+    "header.copy4": "Группы",
+    "header.copy5": "Занятия",
+    "header.copy6": "Питание",
+    "header.copy7": "Педагоги",
+    "header.copy8": "Цены",
+    "header.copy9": "Фотографии",
+    "header.copy10": "Контакты",
+    "hero.copy1": "Частный детский сад в Сочи",
+    "hero.extra2": "здесь!",
+    "hero.description": "Мы за мягкую адаптацию. У нас тепло, уютно, интересно: мы играем, учимся и дружим. В каждой группе — до 15 детей.",
+    "hero.age": "Принимаем детей с 1,5 до 7 лет",
+    "hero.copy3": "Записаться на экскурсию ",
+    "hero.copy4": "Посмотреть цены",
+    "hero.note": "Растёмиграя!",
+    "about.copy5": "Мягкая адаптация",
+    "about.adaptation": "Постепенно знакомим ребенка с садом, педагогами и другими детьми",
+    "about.copy6": "Небольшие группы",
+    "about.groups": "В каждой группе — до 15 детей. Для сна и игр — отдельные комнаты.",
+    "about.copy7": "Индивидуальный подход",
+    "about.individual": "Учитываем возраст и особенности ребенка на занятиях и в общении",
+    "about.copy8": "Опытные педагоги",
+    "about.teachers": "Специалисты с большим опытом работы",
+    "about.copy1": "01 / О САДЕ",
+    "about.copy2": "Помогаем освоиться",
+    "about.copy3": "и найти ",
+    "about.copy4": "друзей",
+    "about.intro": "Учитываем возраст и особенности каждого ребенка.",
+    "hero.copy5": "до 15",
+    "hero.copy6": "детей в группе",
+    "hero.copy7": "Своя",
+    "hero.copy8": "площадка для прогулок",
+    "groups.copy1": "02 / НАШИ ГРУППЫ",
+    "groups.copy2": "Три группы",
+    "groups.copy3": "по возрасту",
+    "groups.copy4": "От адаптации в младшей группе",
+    "groups.copy5": "до подготовки к школе в старшей",
+    "groups.copy6": "Младшая группа",
+    "groups.young.age": "1,5–3 года",
+    "groups.young.description": "Привыкаем к саду и учимся делать сами",
+    "groups.copy7": "Адаптация",
+    "groups.copy8": "Игровые занятия",
+    "groups.copy9": "Речь и моторика",
+    "groups.copy10": "Самостоятельность",
+    "groups.copy11": "Записаться на экскурсию",
+    "groups.copy12": "Средняя группа",
+    "groups.middle.age": "3–5 лет",
+    "groups.middle.description": "Учимся общаться, играть и узнавать новое",
+    "groups.copy13": "Весёлые занятия",
+    "groups.copy14": "Общение",
+    "groups.copy15": "Развитие речи",
+    "groups.copy16": "Познавательные занятия",
+    "groups.copy17": "Старшая группа",
+    "groups.older.age": "5–7 лет",
+    "groups.older.description": "Развиваем внимание и готовимся к школе",
+    "groups.copy18": "Подготовка к школе",
+    "groups.copy19": "Внимание и мышление",
+    "activities.copy1": "03 / ЗАНЯТИЯ",
+    "activities.copy2": "Учимся",
+    "activities.copy3": "через игру",
+    "activities.copy4": "Двигаемся, занимаемся творчеством,",
+    "activities.copy5": "развиваем речь и знакомимся с английским",
+    "activities.sport.title": "Физкультура",
+    "activities.sport.description": "Развиваем координацию через упражнения и подвижные игры",
+    "activities.english.title": "Английский язык",
+    "activities.english.description": "Знакомимся с английским языком в игре",
+    "activities.speech.title": "Логопед",
+    "activities.speech.description": "Работаем над речью и произношением",
+    "activities.art.title": "Творчество",
+    "activities.art.description": "Знакомимся с цветами и формами, развиваем воображение",
+    "activities.workshops.title": "Мастер-классы",
+    "activities.workshops.description": "Пробуем новые занятия и создаем работы своими руками",
+    "food.copy1": "04 / ЗАБОТА КАЖДЫЙ ДЕНЬ",
+    "food.copy2": "Питание",
+    "food.copy3": "и ",
+    "food.copy4": "прогулки",
+    "food.description": "Кормим детей четыре раза в день",
+    "food.copy5": "Завтрак",
+    "food.copy6": "Обед",
+    "food.copy7": "Полдник",
+    "food.copy8": "Ужин",
+    "food.copy9": "Своя площадка",
+    "food.copy10": "для прогулок",
+    "walk.description": "У сада есть собственная площадка для игр на свежем воздухе.",
+    "teachers.copy1": "05 / НАШИ ПЕДАГОГИ",
+    "teachers.copy2": "Педагоги,",
+    "teachers.copy3": "которые ",
+    "teachers.copy4": "рядом",
+    "teachers.description": "С детьми работают специалисты с большим опытом работы",
+    "teachers.copy5": "На экскурсии познакомим вас с педагогами и ответим на вопросы",
+    "teachers.copy6": "Записаться на экскурсию",
+    "prices.copy1": "06 / СТОИМОСТЬ",
+    "prices.copy2": "Выберите",
+    "prices.copy3": "время посещения",
+    "prices.copy4": "Полный день, полдня или разовое посещение.",
+    "prices.copy5": "В период адаптации — почасовое посещение",
+    "prices.copy6": "Полный день",
+    "prices.copy7": "Пн–Пт · ",
+    "prices.copy8": "в месяц",
+    "prices.copy9": "Записаться на экскурсию",
+    "prices.copy11": "Полдня",
+    "prices.copy12": "Посещение в течение половины дня",
+    "prices.copy14": "Разовое посещение",
+    "prices.copy15": "Один день в «Веснушках»",
+    "prices.copy16": "за посещение",
+    "prices.copy17": "Адаптация",
+    "prices.copy19": "/ час",
+    "mamaBaby.photoLabel": "Вместе с мамой",
+    "mamaBaby.age": "ОТКРЫТ НАБОР · 1,5–3 ГОДА",
+    "mamaBaby.title1": "Мама",
+    "mamaBaby.title2": "и",
+    "mamaBaby.title3": "малыш",
+    "mamaBaby.subtitle": "Группа мягкой адаптации",
+    "mamaBaby.description": "Если ваш ребёнок ещё не готов к самостоятельным занятиям, для вас подойдёт группа мягкой адаптации «Мама и Малыш». Играем, развиваемся, отдыхаем и веселимся вместе.",
+    "mamaBaby.activity1": "Музыка и движения",
+    "mamaBaby.activity2": "Сенсорные игры",
+    "mamaBaby.activity3": "Развитие моторики",
+    "mamaBaby.activity4": "Речевое развитие",
+    "mamaBaby.activity5": "Творческие занятия",
+    "mamaBaby.activity6": "Дидактические игры",
+    "mamaBaby.cta": "Записаться в группу",
+    "mamaBaby.limited": "Количество мест ограничено",
+    "gallery.copy1": "07 / ФОТОГРАФИИ И ВИДЕО",
+    "gallery.copy2": "Жизнь в ",
+    "gallery.copy3": "«Веснушках»",
+    "gallery.copy4": "Фотографии и видео из жизни сада",
+    "gallery.copy5": "Занятия в детском саду",
+    "gallery.copy6": "Видео из детского сада",
+    "booking.copy1": "ДАВАЙТЕ ЗНАКОМИТЬСЯ",
+    "booking.copy2": "Приходите",
+    "booking.copy3": "посмотреть",
+    "booking.copy4": "на садик",
+    "booking.copy5": "Покажем, расскажем, познакомим",
+    "booking.copy6": "и обсудим, как помочь вашему ребенку",
+    "booking.copy7": "привыкнуть к нашему пространству.",
+    "booking.copy8": "Оставьте заявку через форму или позвоните нам",
+    "booking.copy9": "Заявка",
+    "booking.copy10": "на экскурсию",
+    "booking.extra2": "Оставьте контакты, и мы согласуем удобное время для знакомства.",
+    "booking.extra3": "Заполнить заявку",
+    "booking.extra6": "Открыть форму на отдельной странице",
+    "contacts.copy1": "08 / КОНТАКТЫ",
+    "contacts.copy2": "Как нас ",
+    "contacts.copy3": "найти",
+    "contacts.copy4": "Детский сад «Веснушки»",
+    "contacts.copy5": "Адрес и часы работы",
+    "contacts.copy6": "Позвонить",
+    "contacts.copy7": "Построить маршрут",
+    "footer.copy1": "Веснушки",
+    "footer.copy2": "ДЕТСКИЙ САД В СОЧИ",
+    "footer.copy3": "О саде",
+    "footer.copy4": "Группы",
+    "footer.copy5": "Занятия",
+    "footer.copy6": "Питание",
+    "footer.copy7": "Педагоги",
+    "footer.copy8": "Цены",
+    "footer.copy9": "Фотографии",
+    "footer.copy10": "Контакты",
+    "footer.copy11": "© 2016–2026 | Детский сад «Веснушки»",
+    "footer.extra1": "Все права защищены",
+    "footer.copy12": "Политика конфиденциальности",
+    "footer.copy13": "Согласие на обработку данных",
+    "other.copy3": "Записаться на экскурсию",
+    "other.extra2": "Веснушки",
+    "other.extra4": "АКЦИЯ!",
+    "other.extra5": "Абонемент на месяц",
+    "other.extra6": "ДАВАЙТЕ ЗНАКОМИТЬСЯ",
+    "other.extra7": "Запись на экскурсию",
+    "other.extra8": "Оставьте заявку, и мы свяжемся с вами, чтобы согласовать время.",
+    "other.extra12": "ИНФОРМАЦИЯ О САЙТЕ",
+    "other.extra13": "Все права защищены",
+    "other.extra14": "Настоящий интернет-сайт носит исключительно информационный характер, вся информация носит ознакомительный характер и ни при каких условиях не является публичной офертой. Владелец сайта оставляет за собой право в любое время вносить изменения, удалять, исправлять, дополнять либо любым иным способом обновлять информацию, размещённую во всех разделах сайта, без специального уведомления пользователей. Информация, представленная на сайте, может содержать неточности, орфографические и иные ошибки; она не является полной, окончательной и исчерпывающей. Просим учитывать это при использовании информации, размещённой на сайте. Все материалы представлены без каких-либо гарантий. Оценка качества, актуальности, полноты и применимости информации остаётся в ведении и компетенции посетителя сайта.",
+    "meta.title": "Частный детский сад в Сочи «Веснушки» — с 1,5 лет",
+    "meta.description": "Частный детский сад «Веснушки» в Сочи: ясли с 1,5 лет и группы до 7 лет, до 15 детей, мягкая адаптация, занятия и 4-разовое питание. Туапсинская, 7Г.",
+    "hero.title1": "Счастливое",
+    "hero.title2": "детство начинается"
   },
-  "about": {
-    "adaptation": "Постепенно знакомим ребенка с садом, педагогами и другими детьми",
-    "groups": "В каждой группе — до 15 детей. Для сна и игр — отдельные комнаты.",
-    "individual": "Учитываем возраст и особенности ребенка на занятиях и в общении",
-    "teachers": "Специалисты с большим опытом работы",
-    "intro": "Учитываем возраст и особенности каждого ребенка."
+  "photos": {
+    "image0": {
+      "url": "/vesnushki-logo.webp",
+      "alt": ""
+    },
+    "image1": {
+      "url": "/hero-girls-unified.svg",
+      "alt": "Две улыбающиеся девочки"
+    },
+    "image2": {
+      "url": "/anniversary-reference.webp",
+      "alt": ""
+    },
+    "image3": {
+      "url": "/anniversary-mobile.png",
+      "alt": "Нам 10 лет! Скидка 10% на месячный абонемент. 27 900 ₽ вместо 31 000 ₽. Получить скидку."
+    },
+    "image4": {
+      "url": "/photo-about-replacement.jpg",
+      "alt": "Девочка на занятии в детском саду"
+    },
+    "image5": {
+      "url": "/photo-13.webp",
+      "alt": "Воспитанница детского сада Веснушки"
+    },
+    "image6": {
+      "url": "/sunny-mascot-1.png",
+      "alt": ""
+    },
+    "image7": {
+      "url": "/group-young.jpg",
+      "alt": "Ребёнок из младшей группы, от 1,5 до 3 лет"
+    },
+    "image8": {
+      "url": "/sunny-mascot-2.png",
+      "alt": ""
+    },
+    "image9": {
+      "url": "/group-middle.jpg",
+      "alt": "Ребёнок из средней группы, от 3 до 5 лет"
+    },
+    "image10": {
+      "url": "/sunny-mascot-3.png",
+      "alt": ""
+    },
+    "image11": {
+      "url": "/group-older.jpg",
+      "alt": "Дети из старшей группы, от 5 до 7 лет"
+    },
+    "image12": {
+      "url": "/photo-6.webp",
+      "alt": "Детские руки создают осеннюю аппликацию"
+    },
+    "image25": {
+      "url": "/mama-flyer.jpeg",
+      "alt": "Мама и малыш играют вместе"
+    },
+    "image24": {
+      "url": "/promo-wide-art.svg",
+      "alt": ""
+    }
   },
-  "groups": {
-    "young_age": "1,5–3 года",
-    "young_description": "Привыкаем к саду и учимся делать сами",
-    "middle_age": "3–5 лет",
-    "middle_description": "Учимся общаться, играть и узнавать новое",
-    "older_age": "5–7 лет",
-    "older_description": "Развиваем внимание и готовимся к школе"
+  "blocks": {
+    "hero": true,
+    "about": true,
+    "groups": true,
+    "activities": true,
+    "food": true,
+    "teachers": true,
+    "prices": true,
+    "mama-baby": true,
+    "gallery": true,
+    "booking": true,
+    "contacts": true,
+    "footer": true,
+    "benefits": true
   },
-  "activities": {
-    "sport_title": "Физкультура",
-    "sport_description": "Развиваем координацию через упражнения и подвижные игры",
-    "english_title": "Английский язык",
-    "english_description": "Знакомимся с английским языком в игре",
-    "speech_title": "Логопед",
-    "speech_description": "Работаем над речью и произношением",
-    "art_title": "Творчество",
-    "art_description": "Знакомимся с цветами и формами, развиваем воображение",
-    "workshops_title": "Мастер-классы",
-    "workshops_description": "Пробуем новые занятия и создаем работы своими руками"
+  "extras": {
+    "hero": [],
+    "about": [],
+    "groups": [],
+    "activities": [],
+    "food": [],
+    "teachers": [],
+    "prices": [],
+    "mama-baby": [],
+    "gallery": [],
+    "booking": [],
+    "contacts": [],
+    "footer": [],
+    "benefits": []
   },
-  "food": {
-    "description": "Кормим детей четыре раза в день"
-  },
-  "walk": {
-    "description": "У сада есть собственная площадка для игр на свежем воздухе."
-  },
-  "teachers": {
-    "description": "С детьми работают специалисты с большим опытом работы",
-    "irina_role": "Воспитатель младшей группы",
-    "irina_name": "Приймак Ирина Евгеньевна",
-    "angelina_role": "Помощник воспитателя",
-    "angelina_name": "Матиек Ангелина Владимировна",
-    "yulia_role": "Воспитатель старшей группы",
-    "yulia_name": "Андреева Юлия Константиновна",
-    "ekaterina_role": "Руководитель",
-    "ekaterina_name": "Шашкова Екатерина Дмитриевна",
-    "stanislava_role": "Воспитатель",
-    "stanislava_name": "Сафронова Станислава Вадимовна"
-  },
-  "mamaBaby": {
-    "photoLabel": "Вместе с мамой",
-    "age": "ОТКРЫТ НАБОР · 1,5–3 ГОДА",
-    "title1": "Мама",
-    "title2": "и",
-    "title3": "малыш",
-    "subtitle": "Группа мягкой адаптации",
-    "description": "Если ваш ребёнок ещё не готов к самостоятельным занятиям, для вас подойдёт группа мягкой адаптации «Мама и Малыш». Играем, развиваемся, отдыхаем и веселимся вместе.",
-    "activity1": "Музыка и движения",
-    "activity2": "Сенсорные игры",
-    "activity3": "Развитие моторики",
-    "activity4": "Речевое развитие",
-    "activity5": "Творческие занятия",
-    "activity6": "Дидактические игры",
-    "cta": "Записаться в группу",
-    "limited": "Количество мест ограничено"
-  },
+  "gallery": [
+    {
+      "id": "initial-1",
+      "url": "/photo-10.webp",
+      "alt": "Дети на занятии"
+    },
+    {
+      "id": "initial-2",
+      "url": "/photo-6.webp",
+      "alt": "Создание аппликации"
+    },
+    {
+      "id": "initial-3",
+      "url": "/photo-15.webp",
+      "alt": "Ребёнок в игровой комнате"
+    },
+    {
+      "id": "initial-4",
+      "url": "/photo-2.webp",
+      "alt": "Выставка детских рисунков"
+    },
+    {
+      "id": "initial-5",
+      "url": "/photo-13.webp",
+      "alt": "Улыбка воспитанницы"
+    },
+    {
+      "id": "initial-6",
+      "url": "/photo-7.webp",
+      "alt": "Творческое занятие"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "teacher-irina-priymak",
+      "url": "/teacher-irina-priymak.webp",
+      "alt": "Приймак Ирина Евгеньевна — воспитатель младшей группы",
+      "name": "Приймак Ирина Евгеньевна",
+      "role": "Воспитатель младшей группы"
+    },
+    {
+      "id": "teacher-angelina-matiek",
+      "url": "/teacher-angelina-matiek.webp",
+      "alt": "Матиек Ангелина Владимировна — помощник воспитателя",
+      "name": "Матиек Ангелина Владимировна",
+      "role": "Помощник воспитателя"
+    },
+    {
+      "id": "teacher-yulia-andreeva",
+      "url": "/teacher-yulia-andreeva.webp",
+      "alt": "Андреева Юлия Константиновна — воспитатель старшей группы",
+      "name": "Андреева Юлия Константиновна",
+      "role": "Воспитатель старшей группы"
+    },
+    {
+      "id": "teacher-ekaterina-shashkova",
+      "url": "/teacher-ekaterina-shashkova.webp",
+      "alt": "Шашкова Екатерина Дмитриевна — руководитель детского сада",
+      "name": "Шашкова Екатерина Дмитриевна",
+      "role": "Руководитель"
+    },
+    {
+      "id": "teacher-stanislava-safronova",
+      "url": "/teacher-stanislava-safronova.webp",
+      "alt": "Сафронова Станислава Вадимовна — воспитатель",
+      "name": "Сафронова Станислава Вадимовна",
+      "role": "Воспитатель"
+    }
+  ],
   "prices": {
-    "fullNormal": "31 000 ₽",
-    "full": "27 900 ₽",
-    "half": "22 000 ₽",
-    "visit": "2 500 ₽",
-    "hour": "300 ₽"
+    "full": 31000,
+    "half": 22000,
+    "visit": 2500,
+    "hour": 300
+  },
+  "promotion": {
+    "enabled": true,
+    "title": "Нам 10 лет!",
+    "description": "Акция «Нам 10 лет» — скидка 10% на месячный абонемент полного дня",
+    "price": 27900,
+    "endDate": "2026-11-30",
+    "popupEnabled": true
   },
   "contacts": {
     "phone": "+7 (988) 233-05-66",
     "address": "Сочи, Туапсинская улица, 7Г",
+    "hours": "07:30–19:00",
     "days": "Понедельник–пятница",
-    "hours": "07:30–19:00"
+    "mapUrl": "https://2gis.ru/sochi/geo/70000001020177104",
+    "routeUrl": "https://2gis.ru/sochi/geo/70000001020177104"
   },
-  "images": {
-    "photo_about": "photo-about-replacement.jpg",
-    "group_young": "group-young.jpg",
-    "group_middle": "group-middle.jpg",
-    "group_older": "group-older.jpg",
-    "activities": "photo-6.webp",
-    "mama_baby": "mama-flyer.jpeg",
-    "gallery_1": "photo-10.webp",
-    "gallery_3": "photo-15.webp",
-    "gallery_4": "photo-2.webp",
-    "gallery_5": "photo-13.webp",
-    "gallery_6": "photo-7.webp",
-    "teacher_irina": "teacher-irina-priymak.webp",
-    "teacher_angelina": "teacher-angelina-matiek.webp",
-    "teacher_yulia": "teacher-yulia-andreeva.webp",
-    "teacher_ekaterina": "teacher-ekaterina-shashkova.webp",
-    "teacher_stanislava": "teacher-stanislava-safronova.webp"
+  "attributes": {
+    "video1.src": "/video-1.mp4",
+    "video1.poster": "/video-1.webp",
+    "video2.src": "/video-garden-20261008.mp4",
+    "video2.poster": "/video-garden-20261008.jpg"
   },
-  "promotion": {
-    "active": true,
-    "description": "Акция «Нам 10 лет» — скидка 10% на месячный абонемент полного дня",
-    "endLabel": "Акция действует до 30.11.2026",
-    "discount": "−10%",
-    "popupEnd": "Полный день · Акция до 30.11.2026"
+  "links": {
+    "link0": "#main",
+    "link1": "#main",
+    "link2": "#about",
+    "link3": "#groups",
+    "link4": "#activities",
+    "link5": "#food",
+    "link6": "#teachers",
+    "link7": "#prices",
+    "link8": "#gallery",
+    "link9": "#contacts",
+    "link11": "#about",
+    "link12": "#groups",
+    "link13": "#activities",
+    "link14": "#food",
+    "link15": "#teachers",
+    "link16": "#prices",
+    "link17": "#gallery",
+    "link18": "#contacts",
+    "link20": "#booking",
+    "link21": "#prices",
+    "link23": "#booking",
+    "link24": "#booking",
+    "link25": "#booking",
+    "link26": "#booking",
+    "link27": "#booking",
+    "link28": "#booking",
+    "link29": "#booking",
+    "link30": "#booking",
+    "link35": "#main",
+    "link36": "#about",
+    "link37": "#groups",
+    "link38": "#activities",
+    "link39": "#food",
+    "link40": "#teachers",
+    "link41": "#prices",
+    "link42": "#gallery",
+    "link43": "#contacts",
+    "link44": "#booking"
+  },
+  "legal": {
+    "privacy": "Сайт знакомит с детским садом «Веснушки». Заявка на экскурсию отправляется через сервис Яндекс Формы. В форме могут быть указаны имя, номер телефона, возрастная группа ребёнка, электронная почта и комментарий. Ответы сохраняются в аккаунте Яндекс Форм владельца формы; уведомление о новой заявке поступает на vesnushki-sad1@yandex.ru. Эти сведения используются для связи с вами и согласования экскурсии.\n\nВ sessionStorage браузера сохраняется факт закрытия акции до завершения посещения. Аналитические счётчики в этой версии не подключены. При загрузке карты браузер обращается к Яндекс Картам. На стороне сервисов Яндекса действуют их условия обработки данных.",
+    "consent": "Соглашаясь на обработку персональных данных, вы разрешаете использовать указанные в форме имя, телефон, возрастную группу ребёнка, электронную почту и комментарий для ответа на вашу заявку и согласования экскурсии. Заявка передаётся через Яндекс Формы владельцу формы; уведомление поступает на vesnushki-sad1@yandex.ru."
   }
 }

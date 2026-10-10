@@ -1,0 +1,10 @@
+{
+  "name": "vesnushki-admin-api",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-10-01",
+  "workers_dev": true,
+  "vars": {
+    "SITE_ORIGIN": "https://vesnushki-sochi23.ru",
+    "GITHUB_BRANCH": "main"
+  }
+}

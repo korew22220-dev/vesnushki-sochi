@@ -3,28 +3,57 @@ name: Publish Веснушки
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '5 21 * * *'
   workflow_dispatch:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
-  group: github-pages
+  group: pages-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check editor, authorization and rendering
+        run: npm test
+      - name: Render static HTML and admin
+        run: python3 render_site.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tested-site
+          path: dist
+          include-hidden-files: true
+          retention-days: 3
   deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: check
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: tested-site
+          path: dist
       - uses: actions/configure-pages@v5
-      - name: Render static HTML
-        run: python3 render_site.py
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

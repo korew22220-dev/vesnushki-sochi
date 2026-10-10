@@ -1,0 +1,1255 @@
+[
+  {
+    "key": "other.copy1",
+    "label": "Кнопка или ссылка: К содержанию",
+    "group": "Акция и документы",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "header.copy1",
+    "label": "Подпись: Веснушки",
+    "group": "Шапка и меню",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "header.copy2",
+    "label": "Подпись: ДЕТСКИЙ САД В СОЧИ",
+    "group": "Шапка и меню",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "header.copy3",
+    "label": "Кнопка или ссылка: О саде",
+    "group": "Шапка и меню",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "header.copy4",
+    "label": "Кнопка или ссылка: Группы",
+    "group": "Шапка и меню",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "header.copy5",
+    "label": "Кнопка или ссылка: Занятия",
+    "group": "Шапка и меню",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "header.copy6",
+    "label": "Кнопка или ссылка: Питание",
+    "group": "Шапка и меню",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "header.copy7",
+    "label": "Кнопка или ссылка: Педагоги",
+    "group": "Шапка и меню",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "header.copy8",
+    "label": "Кнопка или ссылка: Цены",
+    "group": "Шапка и меню",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "header.copy9",
+    "label": "Кнопка или ссылка: Фотографии",
+    "group": "Шапка и меню",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "header.copy10",
+    "label": "Кнопка или ссылка: Контакты",
+    "group": "Шапка и меню",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "hero.copy1",
+    "label": "Подпись: ЧАСТНЫЙ ДЕТСКИЙ САД В СОЧИ",
+    "group": "Первый экран",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "hero.extra2",
+    "label": "здесь!",
+    "group": "Первый экран",
+    "max": 500,
+    "multiline": false
+  },
+  {
+    "key": "hero.description",
+    "label": "Описание на первом экране",
+    "group": "Первый экран",
+    "max": 313,
+    "multiline": true
+  },
+  {
+    "key": "hero.age",
+    "label": "Возраст детей",
+    "group": "Первый экран",
+    "max": 230,
+    "multiline": false
+  },
+  {
+    "key": "hero.copy3",
+    "label": "Кнопка или ссылка: Записаться на экскурсию",
+    "group": "Первый экран",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "hero.copy4",
+    "label": "Кнопка или ссылка: Посмотреть цены",
+    "group": "Первый экран",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "hero.note",
+    "label": "Подпись возле главного фото",
+    "group": "Первый экран",
+    "max": 100,
+    "multiline": true
+  },
+  {
+    "key": "about.copy5",
+    "label": "Заголовок: Мягкая адаптация",
+    "group": "Преимущества",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "about.adaptation",
+    "label": "Мягкая адаптация",
+    "group": "Преимущества",
+    "max": 264,
+    "multiline": false
+  },
+  {
+    "key": "about.copy6",
+    "label": "Заголовок: Небольшие группы",
+    "group": "Преимущества",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "about.groups",
+    "label": "Небольшие группы",
+    "group": "Преимущества",
+    "max": 265,
+    "multiline": false
+  },
+  {
+    "key": "about.copy7",
+    "label": "Заголовок: Индивидуальный подход",
+    "group": "Преимущества",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "about.individual",
+    "label": "Индивидуальный подход",
+    "group": "Преимущества",
+    "max": 263,
+    "multiline": false
+  },
+  {
+    "key": "about.copy8",
+    "label": "Заголовок: Опытные педагоги",
+    "group": "Преимущества",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "about.teachers",
+    "label": "Опытные педагоги",
+    "group": "Преимущества",
+    "max": 235,
+    "multiline": false
+  },
+  {
+    "key": "about.copy1",
+    "label": "Подпись: 01 / О САДЕ",
+    "group": "О саде",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "about.copy2",
+    "label": "Заголовок: Помогаем освоиться",
+    "group": "О саде",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "about.copy3",
+    "label": "Заголовок: и найти",
+    "group": "О саде",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "about.copy4",
+    "label": "Заголовок: друзей",
+    "group": "О саде",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "about.intro",
+    "label": "Описание сада",
+    "group": "О саде",
+    "max": 700,
+    "multiline": false
+  },
+  {
+    "key": "hero.copy5",
+    "label": "Подпись: до 15",
+    "group": "О саде",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "hero.copy6",
+    "label": "Подпись: детей в группе",
+    "group": "О саде",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "hero.copy7",
+    "label": "Подпись: Своя",
+    "group": "О саде",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "hero.copy8",
+    "label": "Подпись: площадка для прогулок",
+    "group": "О саде",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "groups.copy1",
+    "label": "Подпись: 02 / НАШИ ГРУППЫ",
+    "group": "Группы",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "groups.copy2",
+    "label": "Заголовок: Три группы",
+    "group": "Группы",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "groups.copy3",
+    "label": "Заголовок: по возрасту",
+    "group": "Группы",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "groups.copy4",
+    "label": "Подпись: От адаптации в младшей группе",
+    "group": "Группы",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "groups.copy5",
+    "label": "Подпись: до подготовки к школе в старшей",
+    "group": "Группы",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "groups.copy6",
+    "label": "Подпись: Младшая группа",
+    "group": "Группы",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "groups.young.age",
+    "label": "Младшая группа: возраст",
+    "group": "Группы",
+    "max": 210,
+    "multiline": false
+  },
+  {
+    "key": "groups.young.description",
+    "label": "Младшая группа: описание",
+    "group": "Группы",
+    "max": 237,
+    "multiline": false
+  },
+  {
+    "key": "groups.copy7",
+    "label": "Пункт списка: Адаптация",
+    "group": "Группы",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "groups.copy8",
+    "label": "Пункт списка: Игровые занятия",
+    "group": "Группы",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "groups.copy9",
+    "label": "Пункт списка: Речь и моторика",
+    "group": "Группы",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "groups.copy10",
+    "label": "Пункт списка: Самостоятельность",
+    "group": "Группы",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "groups.copy11",
+    "label": "Кнопка или ссылка: Записаться на экскурсию",
+    "group": "Группы",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "groups.copy12",
+    "label": "Подпись: Средняя группа",
+    "group": "Группы",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "groups.middle.age",
+    "label": "Средняя группа: возраст",
+    "group": "Группы",
+    "max": 207,
+    "multiline": false
+  },
+  {
+    "key": "groups.middle.description",
+    "label": "Средняя группа: описание",
+    "group": "Группы",
+    "max": 240,
+    "multiline": false
+  },
+  {
+    "key": "groups.copy13",
+    "label": "Пункт списка: Творчество",
+    "group": "Группы",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "groups.copy14",
+    "label": "Пункт списка: Общение",
+    "group": "Группы",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "groups.copy15",
+    "label": "Пункт списка: Развитие речи",
+    "group": "Группы",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "groups.copy16",
+    "label": "Пункт списка: Познавательные занятия",
+    "group": "Группы",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "groups.copy17",
+    "label": "Подпись: Старшая группа",
+    "group": "Группы",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "groups.older.age",
+    "label": "Старшая группа: возраст",
+    "group": "Группы",
+    "max": 207,
+    "multiline": false
+  },
+  {
+    "key": "groups.older.description",
+    "label": "Старшая группа: описание",
+    "group": "Группы",
+    "max": 238,
+    "multiline": false
+  },
+  {
+    "key": "groups.copy18",
+    "label": "Пункт списка: Подготовка к школе",
+    "group": "Группы",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "groups.copy19",
+    "label": "Пункт списка: Внимание и мышление",
+    "group": "Группы",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "activities.copy1",
+    "label": "Подпись: 03 / ЗАНЯТИЯ",
+    "group": "Занятия",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "activities.copy2",
+    "label": "Заголовок: Учимся",
+    "group": "Занятия",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "activities.copy3",
+    "label": "Заголовок: через игру",
+    "group": "Занятия",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "activities.copy4",
+    "label": "Подпись: Двигаемся, занимаемся творчеством,",
+    "group": "Занятия",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "activities.copy5",
+    "label": "Подпись: развиваем речь и знакомимся с английским",
+    "group": "Занятия",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "activities.sport.title",
+    "label": "Физкультура: название",
+    "group": "Занятия",
+    "max": 211,
+    "multiline": false
+  },
+  {
+    "key": "activities.sport.description",
+    "label": "Физкультура: описание",
+    "group": "Занятия",
+    "max": 255,
+    "multiline": false
+  },
+  {
+    "key": "activities.english.title",
+    "label": "Английский язык: название",
+    "group": "Занятия",
+    "max": 215,
+    "multiline": false
+  },
+  {
+    "key": "activities.english.description",
+    "label": "Английский язык: описание",
+    "group": "Занятия",
+    "max": 237,
+    "multiline": false
+  },
+  {
+    "key": "activities.speech.title",
+    "label": "Логопед: название",
+    "group": "Занятия",
+    "max": 207,
+    "multiline": false
+  },
+  {
+    "key": "activities.speech.description",
+    "label": "Логопед: описание",
+    "group": "Занятия",
+    "max": 234,
+    "multiline": false
+  },
+  {
+    "key": "activities.art.title",
+    "label": "Творчество: название",
+    "group": "Занятия",
+    "max": 210,
+    "multiline": false
+  },
+  {
+    "key": "activities.art.description",
+    "label": "Творчество: описание",
+    "group": "Занятия",
+    "max": 253,
+    "multiline": false
+  },
+  {
+    "key": "activities.workshops.title",
+    "label": "Мастер-классы: название",
+    "group": "Занятия",
+    "max": 213,
+    "multiline": false
+  },
+  {
+    "key": "activities.workshops.description",
+    "label": "Мастер-классы: описание",
+    "group": "Занятия",
+    "max": 252,
+    "multiline": false
+  },
+  {
+    "key": "food.copy1",
+    "label": "Подпись: 04 / ЗАБОТА КАЖДЫЙ ДЕНЬ",
+    "group": "Питание и прогулки",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "food.copy2",
+    "label": "Заголовок: Питание",
+    "group": "Питание и прогулки",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "food.copy3",
+    "label": "Заголовок: и",
+    "group": "Питание и прогулки",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "food.copy4",
+    "label": "Заголовок: прогулки",
+    "group": "Питание и прогулки",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "food.description",
+    "label": "Питание",
+    "group": "Питание и прогулки",
+    "max": 231,
+    "multiline": false
+  },
+  {
+    "key": "food.copy5",
+    "label": "Подпись: Завтрак",
+    "group": "Питание и прогулки",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "food.copy6",
+    "label": "Подпись: Обед",
+    "group": "Питание и прогулки",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "food.copy7",
+    "label": "Подпись: Полдник",
+    "group": "Питание и прогулки",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "food.copy8",
+    "label": "Подпись: Ужин",
+    "group": "Питание и прогулки",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "food.copy9",
+    "label": "Заголовок: Своя площадка",
+    "group": "Питание и прогулки",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "food.copy10",
+    "label": "Заголовок: для прогулок",
+    "group": "Питание и прогулки",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "walk.description",
+    "label": "Прогулки",
+    "group": "Питание и прогулки",
+    "max": 300,
+    "multiline": false
+  },
+  {
+    "key": "teachers.copy1",
+    "label": "Подпись: 05 / НАШИ ПЕДАГОГИ",
+    "group": "Педагоги",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "teachers.copy2",
+    "label": "Заголовок: Педагоги,",
+    "group": "Педагоги",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "teachers.copy3",
+    "label": "Заголовок: которые",
+    "group": "Педагоги",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "teachers.copy4",
+    "label": "Заголовок: рядом",
+    "group": "Педагоги",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "teachers.description",
+    "label": "Описание команды",
+    "group": "Педагоги",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "teachers.copy5",
+    "label": "Подпись: На экскурсии познакомим вас с педагогами и ответим на вопросы",
+    "group": "Педагоги",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "teachers.copy6",
+    "label": "Кнопка или ссылка: Записаться на экскурсию",
+    "group": "Педагоги",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "prices.copy1",
+    "label": "Подпись: 06 / СТОИМОСТЬ",
+    "group": "Стоимость",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "prices.copy2",
+    "label": "Заголовок: Выберите",
+    "group": "Стоимость",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "prices.copy3",
+    "label": "Заголовок: время посещения",
+    "group": "Стоимость",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "prices.copy4",
+    "label": "Подпись: Полный день, полдня или разовое посещение.",
+    "group": "Стоимость",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "prices.copy5",
+    "label": "Подпись: В период адаптации — почасовое посещение",
+    "group": "Стоимость",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "prices.copy6",
+    "label": "Заголовок: Полный день",
+    "group": "Стоимость",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "prices.copy7",
+    "label": "Подпись: Пн–Пт ·",
+    "group": "Стоимость",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "prices.copy8",
+    "label": "Подпись: в месяц",
+    "group": "Стоимость",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "prices.copy9",
+    "label": "Кнопка или ссылка: Записаться на экскурсию",
+    "group": "Стоимость",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "prices.copy11",
+    "label": "Заголовок: Полдня",
+    "group": "Стоимость",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "prices.copy12",
+    "label": "Подпись: Посещение в течение половины дня",
+    "group": "Стоимость",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "prices.copy14",
+    "label": "Заголовок: Разовое посещение",
+    "group": "Стоимость",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "prices.copy15",
+    "label": "Подпись: Один день в «Веснушках»",
+    "group": "Стоимость",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "prices.copy16",
+    "label": "Подпись: за посещение",
+    "group": "Стоимость",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "prices.copy17",
+    "label": "Подпись: Адаптационный час",
+    "group": "Стоимость",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "prices.copy19",
+    "label": "Подпись: / час",
+    "group": "Стоимость",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "mamaBaby.photoLabel",
+    "label": "Подпись на фотографии",
+    "group": "Мама и малыш",
+    "max": 150,
+    "multiline": false
+  },
+  {
+    "key": "mamaBaby.age",
+    "label": "Набор и возраст",
+    "group": "Мама и малыш",
+    "max": 150,
+    "multiline": false
+  },
+  {
+    "key": "mamaBaby.title1",
+    "label": "Заголовок: первое слово",
+    "group": "Мама и малыш",
+    "max": 150,
+    "multiline": false
+  },
+  {
+    "key": "mamaBaby.title2",
+    "label": "Заголовок: союз",
+    "group": "Мама и малыш",
+    "max": 150,
+    "multiline": false
+  },
+  {
+    "key": "mamaBaby.title3",
+    "label": "Заголовок: второе слово",
+    "group": "Мама и малыш",
+    "max": 150,
+    "multiline": false
+  },
+  {
+    "key": "mamaBaby.subtitle",
+    "label": "Подзаголовок",
+    "group": "Мама и малыш",
+    "max": 150,
+    "multiline": false
+  },
+  {
+    "key": "mamaBaby.description",
+    "label": "Описание группы",
+    "group": "Мама и малыш",
+    "max": 700,
+    "multiline": true
+  },
+  {
+    "key": "mamaBaby.activity1",
+    "label": "Занятие: музыка",
+    "group": "Мама и малыш",
+    "max": 150,
+    "multiline": false
+  },
+  {
+    "key": "mamaBaby.activity2",
+    "label": "Занятие: сенсорика",
+    "group": "Мама и малыш",
+    "max": 150,
+    "multiline": false
+  },
+  {
+    "key": "mamaBaby.activity3",
+    "label": "Занятие: моторика",
+    "group": "Мама и малыш",
+    "max": 150,
+    "multiline": false
+  },
+  {
+    "key": "mamaBaby.activity4",
+    "label": "Занятие: речь",
+    "group": "Мама и малыш",
+    "max": 150,
+    "multiline": false
+  },
+  {
+    "key": "mamaBaby.activity5",
+    "label": "Занятие: творчество",
+    "group": "Мама и малыш",
+    "max": 150,
+    "multiline": false
+  },
+  {
+    "key": "mamaBaby.activity6",
+    "label": "Занятие: игры",
+    "group": "Мама и малыш",
+    "max": 150,
+    "multiline": false
+  },
+  {
+    "key": "mamaBaby.cta",
+    "label": "Текст кнопки записи",
+    "group": "Мама и малыш",
+    "max": 150,
+    "multiline": false
+  },
+  {
+    "key": "mamaBaby.limited",
+    "label": "Подпись о местах",
+    "group": "Мама и малыш",
+    "max": 150,
+    "multiline": false
+  },
+  {
+    "key": "gallery.copy1",
+    "label": "Подпись: 07 / ФОТОГРАФИИ И ВИДЕО",
+    "group": "Фотографии и видео",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "gallery.copy2",
+    "label": "Заголовок: Жизнь в",
+    "group": "Фотографии и видео",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "gallery.copy3",
+    "label": "Заголовок: «Веснушках»",
+    "group": "Фотографии и видео",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "gallery.copy4",
+    "label": "Подпись: Фотографии и видео из жизни сада",
+    "group": "Фотографии и видео",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "gallery.copy5",
+    "label": "Подпись: Занятия в детском саду",
+    "group": "Фотографии и видео",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "gallery.copy6",
+    "label": "Подпись: Видео из детского сада",
+    "group": "Фотографии и видео",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "booking.copy1",
+    "label": "Подпись: ДАВАЙТЕ ЗНАКОМИТЬСЯ",
+    "group": "Запись на экскурсию",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "booking.copy2",
+    "label": "Заголовок: Приходите",
+    "group": "Запись на экскурсию",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "booking.copy3",
+    "label": "Заголовок: посмотреть",
+    "group": "Запись на экскурсию",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "booking.copy4",
+    "label": "Заголовок: наш сад",
+    "group": "Запись на экскурсию",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "booking.copy5",
+    "label": "Подпись: Покажем сад, познакомим с педагогами",
+    "group": "Запись на экскурсию",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "booking.copy6",
+    "label": "Подпись: и обсудим, как помочь вашему ребенку",
+    "group": "Запись на экскурсию",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "booking.copy7",
+    "label": "Подпись: привыкнуть к группе",
+    "group": "Запись на экскурсию",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "booking.copy8",
+    "label": "Подпись: Онлайн-запись пока недоступна. Запишитесь на экскурсию по телефон",
+    "group": "Запись на экскурсию",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "booking.copy9",
+    "label": "Заголовок: Заявка",
+    "group": "Запись на экскурсию",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "booking.copy10",
+    "label": "Заголовок: на экскурсию",
+    "group": "Запись на экскурсию",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "booking.extra2",
+    "label": "Оставьте контакты, и мы согласуем удобное время для знакомства.",
+    "group": "Запись на экскурсию",
+    "max": 500,
+    "multiline": false
+  },
+  {
+    "key": "booking.extra3",
+    "label": "Заполнить заявку",
+    "group": "Запись на экскурсию",
+    "max": 500,
+    "multiline": false
+  },
+  {
+    "key": "booking.extra6",
+    "label": "Открыть форму на отдельной странице",
+    "group": "Запись на экскурсию",
+    "max": 500,
+    "multiline": false
+  },
+  {
+    "key": "contacts.copy1",
+    "label": "Подпись: 08 / КОНТАКТЫ",
+    "group": "Контакты",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "contacts.copy2",
+    "label": "Заголовок: Как нас",
+    "group": "Контакты",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "contacts.copy3",
+    "label": "Заголовок: найти",
+    "group": "Контакты",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "contacts.copy4",
+    "label": "Подпись: Детский сад «Веснушки»",
+    "group": "Контакты",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "contacts.copy5",
+    "label": "Заголовок: Адрес и часы работы",
+    "group": "Контакты",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "contacts.copy6",
+    "label": "Кнопка или ссылка: Позвонить",
+    "group": "Контакты",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "contacts.copy7",
+    "label": "Кнопка или ссылка: Построить маршрут",
+    "group": "Контакты",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "footer.copy1",
+    "label": "Подпись: Веснушки",
+    "group": "Подвал сайта",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "footer.copy2",
+    "label": "Подпись: ДЕТСКИЙ САД В СОЧИ",
+    "group": "Подвал сайта",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "footer.copy3",
+    "label": "Кнопка или ссылка: О саде",
+    "group": "Подвал сайта",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "footer.copy4",
+    "label": "Кнопка или ссылка: Группы",
+    "group": "Подвал сайта",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "footer.copy5",
+    "label": "Кнопка или ссылка: Занятия",
+    "group": "Подвал сайта",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "footer.copy6",
+    "label": "Кнопка или ссылка: Питание",
+    "group": "Подвал сайта",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "footer.copy7",
+    "label": "Кнопка или ссылка: Педагоги",
+    "group": "Подвал сайта",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "footer.copy8",
+    "label": "Кнопка или ссылка: Цены",
+    "group": "Подвал сайта",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "footer.copy9",
+    "label": "Кнопка или ссылка: Фотографии",
+    "group": "Подвал сайта",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "footer.copy10",
+    "label": "Кнопка или ссылка: Контакты",
+    "group": "Подвал сайта",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "footer.copy11",
+    "label": "Подпись: © 2026 Детский сад «Веснушки»",
+    "group": "Подвал сайта",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "footer.extra1",
+    "label": "Все права защищены",
+    "group": "Подвал сайта",
+    "max": 500,
+    "multiline": false
+  },
+  {
+    "key": "footer.copy12",
+    "label": "Кнопка или ссылка: Политика конфиденциальности",
+    "group": "Подвал сайта",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "footer.copy13",
+    "label": "Кнопка или ссылка: Согласие на обработку данных",
+    "group": "Подвал сайта",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "other.copy3",
+    "label": "Кнопка или ссылка: Записаться на экскурсию",
+    "group": "Акция и документы",
+    "max": 350,
+    "multiline": false
+  },
+  {
+    "key": "other.extra2",
+    "label": "Веснушки",
+    "group": "Акция и документы",
+    "max": 500,
+    "multiline": false
+  },
+  {
+    "key": "other.extra4",
+    "label": "АКЦИЯ!",
+    "group": "Акция и документы",
+    "max": 500,
+    "multiline": false
+  },
+  {
+    "key": "other.extra5",
+    "label": "Абонемент на месяц",
+    "group": "Акция и документы",
+    "max": 500,
+    "multiline": false
+  },
+  {
+    "key": "other.extra6",
+    "label": "ДАВАЙТЕ ЗНАКОМИТЬСЯ",
+    "group": "Акция и документы",
+    "max": 500,
+    "multiline": false
+  },
+  {
+    "key": "other.extra7",
+    "label": "Запись на экскурсию",
+    "group": "Акция и документы",
+    "max": 500,
+    "multiline": false
+  },
+  {
+    "key": "other.extra8",
+    "label": "Оставьте заявку, и мы свяжемся с вами, чтобы согласовать время.",
+    "group": "Акция и документы",
+    "max": 500,
+    "multiline": false
+  },
+  {
+    "key": "other.extra12",
+    "label": "ИНФОРМАЦИЯ О САЙТЕ",
+    "group": "Акция и документы",
+    "max": 500,
+    "multiline": false
+  },
+  {
+    "key": "other.extra13",
+    "label": "Все права защищены",
+    "group": "Акция и документы",
+    "max": 500,
+    "multiline": false
+  },
+  {
+    "key": "other.extra14",
+    "label": "Настоящий интернет-сайт носит исключительно информационный характ",
+    "group": "Акция и документы",
+    "max": 992,
+    "multiline": true
+  },
+  {
+    "key": "meta.title",
+    "label": "Заголовок в поиске",
+    "group": "Акция и документы",
+    "max": 500,
+    "multiline": false
+  },
+  {
+    "key": "meta.description",
+    "label": "Описание в поиске",
+    "group": "Акция и документы",
+    "max": 500,
+    "multiline": false
+  },
+  {
+    "key": "hero.title1",
+    "group": "Первый экран",
+    "label": "Заголовок: строка 1",
+    "max": 100,
+    "multiline": false
+  },
+  {
+    "key": "hero.title2",
+    "group": "Первый экран",
+    "label": "Заголовок: строка 2",
+    "max": 100,
+    "multiline": false
+  }
+]
