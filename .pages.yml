@@ -43,56 +43,56 @@ content:
         type: object
         fields:
           - name: young_age
-            label: Young — Возраст
+            label: Младшая группа — Возраст
             type: string
           - name: young_description
-            label: Young — Описание
+            label: Младшая группа — Описание
             type: string
           - name: middle_age
-            label: Middle — Возраст
+            label: Средняя группа — Возраст
             type: string
           - name: middle_description
-            label: Middle — Описание
+            label: Средняя группа — Описание
             type: string
           - name: older_age
-            label: Older — Возраст
+            label: Старшая группа — Возраст
             type: string
           - name: older_description
-            label: Older — Описание
+            label: Старшая группа — Описание
             type: string
       - name: activities
         label: Занятия
         type: object
         fields:
           - name: sport_title
-            label: Sport — Название
+            label: Физкультура — Название
             type: string
           - name: sport_description
-            label: Sport — Описание
+            label: Физкультура — Описание
             type: string
           - name: english_title
-            label: English — Название
+            label: Английский — Название
             type: string
           - name: english_description
-            label: English — Описание
+            label: Английский — Описание
             type: string
           - name: speech_title
-            label: Speech — Название
+            label: Логопед — Название
             type: string
           - name: speech_description
-            label: Speech — Описание
+            label: Логопед — Описание
             type: string
           - name: art_title
-            label: Art — Название
+            label: Творчество — Название
             type: string
           - name: art_description
-            label: Art — Описание
+            label: Творчество — Описание
             type: string
           - name: workshops_title
-            label: Workshops — Название
+            label: Мастер-классы — Название
             type: string
           - name: workshops_description
-            label: Workshops — Описание
+            label: Мастер-классы — Описание
             type: string
       - name: food
         label: Питание
@@ -116,34 +116,34 @@ content:
             label: Описание
             type: text
           - name: irina_role
-            label: Irina — Должность
+            label: Ирина — Должность
             type: string
           - name: irina_name
-            label: Irina — Имя
+            label: Ирина — Имя
             type: string
           - name: angelina_role
-            label: Angelina — Должность
+            label: Ангелина — Должность
             type: string
           - name: angelina_name
-            label: Angelina — Имя
+            label: Ангелина — Имя
             type: string
           - name: yulia_role
-            label: Yulia — Должность
+            label: Юлия — Должность
             type: string
           - name: yulia_name
-            label: Yulia — Имя
+            label: Юлия — Имя
             type: string
           - name: ekaterina_role
-            label: Ekaterina — Должность
+            label: Екатерина — Должность
             type: string
           - name: ekaterina_name
-            label: Ekaterina — Имя
+            label: Екатерина — Имя
             type: string
           - name: stanislava_role
-            label: Stanislava — Должность
+            label: Станислава — Должность
             type: string
           - name: stanislava_name
-            label: Stanislava — Имя
+            label: Станислава — Имя
             type: string
       - name: mamaBaby
         label: Мама и малыш
@@ -229,27 +229,46 @@ content:
           - name: hours
             label: Часы работы
             type: string
+      - name: promotion
+        label: Акция и всплывающее окно
+        type: object
+        fields:
+          - name: active
+            label: Показывать окно акции
+            type: boolean
+          - name: description
+            label: Описание акции рядом с ценой
+            type: text
+          - name: endLabel
+            label: Срок акции рядом с ценой
+            type: string
+          - name: discount
+            label: Скидка во всплывающем окне
+            type: string
+          - name: popupEnd
+            label: Срок во всплывающем окне
+            type: string
       - name: images
         label: Фотографии
         type: object
         fields:
           - name: photo-about-replacement.jpg
-            label: photo-about-replacement.jpg
+            label: Фото о саде
             type: image
           - name: group-young.jpg
-            label: group-young.jpg
+            label: Фото младшей группы
             type: image
           - name: group-middle.jpg
-            label: group-middle.jpg
+            label: Фото средней группы
             type: image
           - name: group-older.jpg
-            label: group-older.jpg
+            label: Фото старшей группы
             type: image
           - name: photo-6.webp
             label: photo-6.webp
             type: image
           - name: mama-flyer.jpeg
-            label: mama-flyer.jpeg
+            label: Фото «Мама и малыш»
             type: image
           - name: photo-10.webp
             label: photo-10.webp
