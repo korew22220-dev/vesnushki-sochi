@@ -64,8 +64,8 @@ def marked_price(source, marker, value):
         + r'"[^>]*>)(?P<body>.*?)</(?P=tag)>',
         re.S,
     )
-    if len(pattern.findall(source)) != 1:
-        raise ValueError(f"Expected one price marker: {marker}")
+    if not pattern.search(source):
+        raise ValueError(f"Missing price marker: {marker}")
     return pattern.sub(
         lambda m: m.group(1) + html.escape(str(value), quote=False)
         + "</" + m.group("tag") + ">",
@@ -80,6 +80,22 @@ def build():
             page = marked_text(page, section + "." + field, CONTENT[section][field.replace(".", "_")])
     for marker, value in CONTENT["prices"].items():
         page = marked_price(page, marker, value)
+    for marker in ("description", "endLabel", "discount", "popupEnd"):
+        pattern = re.compile(
+            r'(<(?P<tag>[a-z][\w-]*)\b[^>]*\bdata-promo="'
+            + marker + r'"[^>]*>).*?</(?P=tag)>', re.S
+        )
+        if not pattern.search(page):
+            raise ValueError(f"Missing promotion marker: {marker}")
+        page = pattern.sub(
+            lambda m: m.group(1) + html.escape(CONTENT["promotion"][marker])
+            + "</" + m.group("tag") + ">",
+            page,
+        )
+    if not isinstance(CONTENT["promotion"]["active"], bool):
+        raise ValueError("Promotion active must be true or false")
+    page = page.replace('"active":true,', '"active":'
+                        + json.dumps(CONTENT["promotion"]["active"]) + ',')
 
     # Sitewide images share the same source where the original page reused it.
     for original, replacement in CONTENT["images"].items():
