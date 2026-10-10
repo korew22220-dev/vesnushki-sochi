@@ -1,0 +1,9 @@
+{
+  "name": "vesnushki-github-admin",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/backend.test.mjs && python3 -m unittest discover -s tests -p 'test_*.py'",
+    "build": "python3 render_site.py"
+  }
+}
