@@ -40,6 +40,25 @@ TEXT_FIELDS = {
     ],
 }
 
+IMAGE_FILES = {
+    "photo_about": "photo-about-replacement.jpg",
+    "group_young": "group-young.jpg",
+    "group_middle": "group-middle.jpg",
+    "group_older": "group-older.jpg",
+    "activities": "photo-6.webp",
+    "mama_baby": "mama-flyer.jpeg",
+    "gallery_1": "photo-10.webp",
+    "gallery_3": "photo-15.webp",
+    "gallery_4": "photo-2.webp",
+    "gallery_5": "photo-13.webp",
+    "gallery_6": "photo-7.webp",
+    "teacher_irina": "teacher-irina-priymak.webp",
+    "teacher_angelina": "teacher-angelina-matiek.webp",
+    "teacher_yulia": "teacher-yulia-andreeva.webp",
+    "teacher_ekaterina": "teacher-ekaterina-shashkova.webp",
+    "teacher_stanislava": "teacher-stanislava-safronova.webp",
+}
+
 
 def marked_text(source, marker, value):
     pattern = re.compile(
@@ -98,9 +117,8 @@ def build():
                         + json.dumps(CONTENT["promotion"]["active"]) + ',')
 
     # Sitewide images share the same source where the original page reused it.
-    for original, replacement in CONTENT["images"].items():
-        if not original or original.startswith("/") or "/" in original:
-            raise ValueError(f"Unexpected original image filename: {original}")
+    for key, original in IMAGE_FILES.items():
+        replacement = CONTENT["images"][key]
         if not isinstance(replacement, str) or not replacement:
             raise ValueError(f"Missing image: {original}")
         if not (replacement.startswith("/media/") or re.fullmatch(r"[\w.-]+", replacement)):
