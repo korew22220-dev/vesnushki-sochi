@@ -1,0 +1,283 @@
+media:
+  input: media
+  output: /media
+  categories: [image]
+  rename: safe
+content:
+  - name: site
+    label: Информация на сайте
+    type: file
+    path: content/site.json
+    fields:
+      - name: hero
+        label: Первый экран
+        type: object
+        fields:
+          - name: description
+            label: Описание
+            type: text
+          - name: age
+            label: Возраст
+            type: string
+      - name: about
+        label: О саде
+        type: object
+        fields:
+          - name: adaptation
+            label: Адаптация
+            type: string
+          - name: groups
+            label: Небольшие группы
+            type: string
+          - name: individual
+            label: Индивидуальный подход
+            type: string
+          - name: teachers
+            label: Педагоги
+            type: string
+          - name: intro
+            label: Вступление
+            type: text
+      - name: groups
+        label: Возрастные группы
+        type: object
+        fields:
+          - name: young_age
+            label: Young — Возраст
+            type: string
+          - name: young_description
+            label: Young — Описание
+            type: string
+          - name: middle_age
+            label: Middle — Возраст
+            type: string
+          - name: middle_description
+            label: Middle — Описание
+            type: string
+          - name: older_age
+            label: Older — Возраст
+            type: string
+          - name: older_description
+            label: Older — Описание
+            type: string
+      - name: activities
+        label: Занятия
+        type: object
+        fields:
+          - name: sport_title
+            label: Sport — Название
+            type: string
+          - name: sport_description
+            label: Sport — Описание
+            type: string
+          - name: english_title
+            label: English — Название
+            type: string
+          - name: english_description
+            label: English — Описание
+            type: string
+          - name: speech_title
+            label: Speech — Название
+            type: string
+          - name: speech_description
+            label: Speech — Описание
+            type: string
+          - name: art_title
+            label: Art — Название
+            type: string
+          - name: art_description
+            label: Art — Описание
+            type: string
+          - name: workshops_title
+            label: Workshops — Название
+            type: string
+          - name: workshops_description
+            label: Workshops — Описание
+            type: string
+      - name: food
+        label: Питание
+        type: object
+        fields:
+          - name: description
+            label: Описание
+            type: text
+      - name: walk
+        label: Прогулки
+        type: object
+        fields:
+          - name: description
+            label: Описание
+            type: text
+      - name: teachers
+        label: Педагоги
+        type: object
+        fields:
+          - name: description
+            label: Описание
+            type: text
+          - name: irina_role
+            label: Irina — Должность
+            type: string
+          - name: irina_name
+            label: Irina — Имя
+            type: string
+          - name: angelina_role
+            label: Angelina — Должность
+            type: string
+          - name: angelina_name
+            label: Angelina — Имя
+            type: string
+          - name: yulia_role
+            label: Yulia — Должность
+            type: string
+          - name: yulia_name
+            label: Yulia — Имя
+            type: string
+          - name: ekaterina_role
+            label: Ekaterina — Должность
+            type: string
+          - name: ekaterina_name
+            label: Ekaterina — Имя
+            type: string
+          - name: stanislava_role
+            label: Stanislava — Должность
+            type: string
+          - name: stanislava_name
+            label: Stanislava — Имя
+            type: string
+      - name: mamaBaby
+        label: Мама и малыш
+        type: object
+        fields:
+          - name: photoLabel
+            label: Подпись на фото
+            type: string
+          - name: age
+            label: Возраст
+            type: string
+          - name: title1
+            label: Заголовок: Мама
+            type: string
+          - name: title2
+            label: Заголовок: и
+            type: string
+          - name: title3
+            label: Заголовок: малыш
+            type: string
+          - name: subtitle
+            label: Подзаголовок
+            type: string
+          - name: description
+            label: Описание
+            type: text
+          - name: activity1
+            label: activity1
+            type: string
+          - name: activity2
+            label: activity2
+            type: string
+          - name: activity3
+            label: activity3
+            type: string
+          - name: activity4
+            label: activity4
+            type: string
+          - name: activity5
+            label: activity5
+            type: string
+          - name: activity6
+            label: activity6
+            type: string
+          - name: cta
+            label: Текст кнопки
+            type: string
+          - name: limited
+            label: Подпись под кнопкой
+            type: string
+      - name: prices
+        label: Цены
+        type: object
+        fields:
+          - name: fullNormal
+            label: Полный день без акции
+            type: string
+          - name: full
+            label: Полный день по акции
+            type: string
+          - name: half
+            label: Полдня
+            type: string
+          - name: visit
+            label: Разовое посещение
+            type: string
+          - name: hour
+            label: Адаптация за час
+            type: string
+      - name: contacts
+        label: Контакты
+        type: object
+        fields:
+          - name: phone
+            label: Телефон
+            type: string
+          - name: address
+            label: Адрес
+            type: string
+          - name: days
+            label: Дни работы
+            type: string
+          - name: hours
+            label: Часы работы
+            type: string
+      - name: images
+        label: Фотографии
+        type: object
+        fields:
+          - name: photo-about-replacement.jpg
+            label: photo-about-replacement.jpg
+            type: image
+          - name: group-young.jpg
+            label: group-young.jpg
+            type: image
+          - name: group-middle.jpg
+            label: group-middle.jpg
+            type: image
+          - name: group-older.jpg
+            label: group-older.jpg
+            type: image
+          - name: photo-6.webp
+            label: photo-6.webp
+            type: image
+          - name: mama-flyer.jpeg
+            label: mama-flyer.jpeg
+            type: image
+          - name: photo-10.webp
+            label: photo-10.webp
+            type: image
+          - name: photo-15.webp
+            label: photo-15.webp
+            type: image
+          - name: photo-2.webp
+            label: photo-2.webp
+            type: image
+          - name: photo-13.webp
+            label: photo-13.webp
+            type: image
+          - name: photo-7.webp
+            label: photo-7.webp
+            type: image
+          - name: teacher-irina-priymak.webp
+            label: teacher-irina-priymak.webp
+            type: image
+          - name: teacher-angelina-matiek.webp
+            label: teacher-angelina-matiek.webp
+            type: image
+          - name: teacher-yulia-andreeva.webp
+            label: teacher-yulia-andreeva.webp
+            type: image
+          - name: teacher-ekaterina-shashkova.webp
+            label: teacher-ekaterina-shashkova.webp
+            type: image
+          - name: teacher-stanislava-safronova.webp
+            label: teacher-stanislava-safronova.webp
+            type: image
