@@ -332,15 +332,15 @@ header{background:#fff;border:0;box-shadow:none}.header-inner{height:91px;max-wi
 .footer-contact{display:flex;align-items:center;gap:18px;flex-wrap:wrap;padding:18px 0}
 .footer-phone{color:#173444;font-size:19px;font-weight:800;white-space:nowrap}
 /* Compact WhatsApp icon between navigation and phone. */
-.header-inner .header-whatsapp{width:34px;height:44px;flex:0 0 34px;margin:0;border:0;background:transparent;box-shadow:none}
-.header-inner .header-whatsapp img{width:24px;height:24px}
-.header-inner .header-whatsapp:hover{background:#eef9ec}
-@media(max-width:620px){.footer-contact{justify-content:space-between;gap:12px}.header-contact{justify-content:flex-end;gap:8px}.header-contact .header-phone{margin-right:auto}.header-contact .header-whatsapp{order:1;flex-basis:30px;width:30px}}
+.header-inner :is(.header-whatsapp,.header-max){width:34px;height:44px;flex:0 0 34px;margin:0;border:0;background:transparent;box-shadow:none}
+.header-inner :is(.header-whatsapp,.header-max) img{width:24px;height:24px}
+.header-inner :is(.header-whatsapp,.header-max):hover{background:#eef9ec}
+@media(max-width:620px){.footer-contact{justify-content:space-between;gap:12px}.header-contact{justify-content:flex-end;gap:8px}.header-contact .header-phone{margin-right:auto}.header-contact .header-whatsapp{order:1;flex-basis:30px;width:30px}.header-contact .header-max{order:2;flex-basis:30px;width:30px}}
 @media(max-width:360px){.header-contact{gap:5px}.header-contact .header-phone{font-size:13px}.header-contact .header-book-btn{font-size:14px;padding:8px 12px}}
 
 /* Visible content sections receive consecutive numbers, including CMS changes. */
 #main{counter-reset:site-section}
-#main>section:not(#hero){counter-increment:site-section}
+#main>section:not(#hero):not(#mama-baby):not(#contacts){counter-increment:site-section}
 #main .section-label{display:block;margin:0 0 18px;font-size:12px;font-weight:800;letter-spacing:1px;line-height:1.5}
 #main .section-label::before{content:counter(site-section,decimal-leading-zero) " / "}
-@media(max-width:1050px){.header-contact .header-phone{order:0}.header-contact .header-whatsapp{order:1}.header-contact .header-book-btn{order:2}}
+@media(max-width:1050px){.header-contact .header-phone{order:0}.header-contact .header-whatsapp{order:1}.header-contact .header-max{order:2}.header-contact .header-book-btn{order:3}}
