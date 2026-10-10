@@ -79,3 +79,10 @@ test('publication stays pending until Actions explicitly reports success',async(
  assert.equal((await (await request('/api/status?commit='+headSHA)).json()).state,'failed');
  run.conclusion='success';assert.equal((await (await request('/api/status?commit='+headSHA)).json()).state,'published');
 });
+
+test('validation preserves all existing data and restores the legacy footer link',()=>{
+ const expected=structuredClone(initial);delete expected.revision;expected.links.link35??='#main';
+ assert.deepEqual(validate(initial),expected);
+ const c=structuredClone(initial);delete c.links.link35;assert.equal(validate(c).links.link35,'#main');
+ c.links.link35='https://example.com/';assert.equal(validate(c).links.link35,c.links.link35);
+});
