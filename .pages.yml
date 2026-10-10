@@ -156,13 +156,13 @@ content:
             label: Возраст
             type: string
           - name: title1
-            label: Заголовок: Мама
+            label: "Заголовок: Мама"
             type: string
           - name: title2
-            label: Заголовок: и
+            label: "Заголовок: и"
             type: string
           - name: title3
-            label: Заголовок: малыш
+            label: "Заголовок: малыш"
             type: string
           - name: subtitle
             label: Подзаголовок
@@ -171,22 +171,22 @@ content:
             label: Описание
             type: text
           - name: activity1
-            label: activity1
+            label: Занятие 1
             type: string
           - name: activity2
-            label: activity2
+            label: Занятие 2
             type: string
           - name: activity3
-            label: activity3
+            label: Занятие 3
             type: string
           - name: activity4
-            label: activity4
+            label: Занятие 4
             type: string
           - name: activity5
-            label: activity5
+            label: Занятие 5
             type: string
           - name: activity6
-            label: activity6
+            label: Занятие 6
             type: string
           - name: cta
             label: Текст кнопки
@@ -252,51 +252,51 @@ content:
         label: Фотографии
         type: object
         fields:
-          - name: photo-about-replacement.jpg
+          - name: photo_about
             label: Фото о саде
             type: image
-          - name: group-young.jpg
+          - name: group_young
             label: Фото младшей группы
             type: image
-          - name: group-middle.jpg
+          - name: group_middle
             label: Фото средней группы
             type: image
-          - name: group-older.jpg
+          - name: group_older
             label: Фото старшей группы
             type: image
-          - name: photo-6.webp
-            label: photo-6.webp
+          - name: activities
+            label: Фото activities
             type: image
-          - name: mama-flyer.jpeg
+          - name: mama_baby
             label: Фото «Мама и малыш»
             type: image
-          - name: photo-10.webp
-            label: photo-10.webp
+          - name: gallery_1
+            label: Фото gallery 1
             type: image
-          - name: photo-15.webp
-            label: photo-15.webp
+          - name: gallery_3
+            label: Фото gallery 3
             type: image
-          - name: photo-2.webp
-            label: photo-2.webp
+          - name: gallery_4
+            label: Фото gallery 4
             type: image
-          - name: photo-13.webp
-            label: photo-13.webp
+          - name: gallery_5
+            label: Фото gallery 5
             type: image
-          - name: photo-7.webp
-            label: photo-7.webp
+          - name: gallery_6
+            label: Фото gallery 6
             type: image
-          - name: teacher-irina-priymak.webp
-            label: teacher-irina-priymak.webp
+          - name: teacher_irina
+            label: Фото teacher irina
             type: image
-          - name: teacher-angelina-matiek.webp
-            label: teacher-angelina-matiek.webp
+          - name: teacher_angelina
+            label: Фото teacher angelina
             type: image
-          - name: teacher-yulia-andreeva.webp
-            label: teacher-yulia-andreeva.webp
+          - name: teacher_yulia
+            label: Фото teacher yulia
             type: image
-          - name: teacher-ekaterina-shashkova.webp
-            label: teacher-ekaterina-shashkova.webp
+          - name: teacher_ekaterina
+            label: Фото teacher ekaterina
             type: image
-          - name: teacher-stanislava-safronova.webp
-            label: teacher-stanislava-safronova.webp
+          - name: teacher_stanislava
+            label: Фото teacher stanislava
             type: image
