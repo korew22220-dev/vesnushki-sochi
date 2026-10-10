@@ -1,0 +1,100 @@
+{
+  "hero": {
+    "description": "Мы за мягкую адаптацию. У нас тепло, уютно, интересно: мы играем, учимся и дружим. В каждой группе — до 15 детей.",
+    "age": "Принимаем детей с 1,5 до 7 лет"
+  },
+  "about": {
+    "adaptation": "Постепенно знакомим ребенка с садом, педагогами и другими детьми",
+    "groups": "В каждой группе — до 15 детей. Для сна и игр — отдельные комнаты.",
+    "individual": "Учитываем возраст и особенности ребенка на занятиях и в общении",
+    "teachers": "Специалисты с большим опытом работы",
+    "intro": "Учитываем возраст и особенности каждого ребенка."
+  },
+  "groups": {
+    "young_age": "1,5–3 года",
+    "young_description": "Привыкаем к саду и учимся делать сами",
+    "middle_age": "3–5 лет",
+    "middle_description": "Учимся общаться, играть и узнавать новое",
+    "older_age": "5–7 лет",
+    "older_description": "Развиваем внимание и готовимся к школе"
+  },
+  "activities": {
+    "sport_title": "Физкультура",
+    "sport_description": "Развиваем координацию через упражнения и подвижные игры",
+    "english_title": "Английский язык",
+    "english_description": "Знакомимся с английским языком в игре",
+    "speech_title": "Логопед",
+    "speech_description": "Работаем над речью и произношением",
+    "art_title": "Творчество",
+    "art_description": "Знакомимся с цветами и формами, развиваем воображение",
+    "workshops_title": "Мастер-классы",
+    "workshops_description": "Пробуем новые занятия и создаем работы своими руками"
+  },
+  "food": {
+    "description": "Кормим детей четыре раза в день"
+  },
+  "walk": {
+    "description": "У сада есть собственная площадка для игр на свежем воздухе."
+  },
+  "teachers": {
+    "description": "С детьми работают специалисты с большим опытом работы",
+    "irina_role": "Воспитатель младшей группы",
+    "irina_name": "Приймак Ирина Евгеньевна",
+    "angelina_role": "Помощник воспитателя",
+    "angelina_name": "Матиек Ангелина Владимировна",
+    "yulia_role": "Воспитатель старшей группы",
+    "yulia_name": "Андреева Юлия Константиновна",
+    "ekaterina_role": "Руководитель",
+    "ekaterina_name": "Шашкова Екатерина Дмитриевна",
+    "stanislava_role": "Воспитатель",
+    "stanislava_name": "Сафронова Станислава Вадимовна"
+  },
+  "mamaBaby": {
+    "photoLabel": "Вместе с мамой",
+    "age": "ОТКРЫТ НАБОР · 1,5–3 ГОДА",
+    "title1": "Мама",
+    "title2": "и",
+    "title3": "малыш",
+    "subtitle": "Группа мягкой адаптации",
+    "description": "Если ваш ребёнок ещё не готов к самостоятельным занятиям, для вас подойдёт группа мягкой адаптации «Мама и Малыш». Играем, развиваемся, отдыхаем и веселимся вместе.",
+    "activity1": "Музыка и движения",
+    "activity2": "Сенсорные игры",
+    "activity3": "Развитие моторики",
+    "activity4": "Речевое развитие",
+    "activity5": "Творческие занятия",
+    "activity6": "Дидактические игры",
+    "cta": "Записаться в группу",
+    "limited": "Количество мест ограничено"
+  },
+  "prices": {
+    "fullNormal": "31 000 ₽",
+    "full": "27 900 ₽",
+    "half": "22 000 ₽",
+    "visit": "2 500 ₽",
+    "hour": "300 ₽"
+  },
+  "contacts": {
+    "phone": "+7 (988) 233-05-66",
+    "address": "Сочи, Туапсинская улица, 7Г",
+    "days": "Понедельник–пятница",
+    "hours": "07:30–19:00"
+  },
+  "images": {
+    "photo-about-replacement.jpg": "photo-about-replacement.jpg",
+    "group-young.jpg": "group-young.jpg",
+    "group-middle.jpg": "group-middle.jpg",
+    "group-older.jpg": "group-older.jpg",
+    "photo-6.webp": "photo-6.webp",
+    "mama-flyer.jpeg": "mama-flyer.jpeg",
+    "photo-10.webp": "photo-10.webp",
+    "photo-15.webp": "photo-15.webp",
+    "photo-2.webp": "photo-2.webp",
+    "photo-13.webp": "photo-13.webp",
+    "photo-7.webp": "photo-7.webp",
+    "teacher-irina-priymak.webp": "teacher-irina-priymak.webp",
+    "teacher-angelina-matiek.webp": "teacher-angelina-matiek.webp",
+    "teacher-yulia-andreeva.webp": "teacher-yulia-andreeva.webp",
+    "teacher-ekaterina-shashkova.webp": "teacher-ekaterina-shashkova.webp",
+    "teacher-stanislava-safronova.webp": "teacher-stanislava-safronova.webp"
+  }
+}
